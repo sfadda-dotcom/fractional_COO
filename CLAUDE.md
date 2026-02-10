@@ -24,6 +24,7 @@ Job search attivo in parallelo come backup (runway 2 mesi).
 | `JOBS.md` | Job applications e status | Unica fonte per job search |
 | `EVENTS.md` | Eventi, prep, follow-up | Unica fonte per eventi |
 | `CASHFLOW.md` | Cash flow residui e nuove opportunità | Unica fonte per soldi |
+| `MARKET_INTEL.md` | Pattern, linguaggio, pain points estratti da JD e ricerca | Si popola automaticamente — mai editare manualmente |
 | `CHANGELOG.md` | Log cronologico inverso di cosa succede | Append-only, mai editare entry passate |
 
 ### Regola fondamentale
@@ -49,6 +50,19 @@ Quando Sabrina chiede "recap", "a che punto siamo", "status", o simili:
 1. Leggi tutti i file di tracking (OUTREACH, JOBS, EVENTS, CASHFLOW)
 2. Genera un riepilogo con: cosa è successo oggi/ieri, prossime deadline, azioni urgenti, metriche validazione
 3. **NON creare un file** — il recap è output conversazionale, non un documento
+
+## Quando Sabrina condivide una JD
+
+Doppio output:
+1. **JOBS.md** — Analisi match: match %, key requirements, gaps, se applicare o no, next step
+2. **MARKET_INTEL.md** — Estrai e aggiorna:
+   - Linguaggio usato (aggiungi frequenza nella tabella Coliseum Keywords)
+   - Pain points (aggiungi alla tabella pattern)
+   - Skills richieste (aggiungi con frequenza)
+   - Salary range (aggiungi alla tabella benchmark)
+   - Segmenti affamati (se emerge un nuovo pattern)
+
+Stesso workflow quando Sabrina condivide ricerca (subreddit, gruppi, articoli, conversazioni): estrai pattern per MARKET_INTEL.md.
 
 ## Tono
 

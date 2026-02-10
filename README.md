@@ -11,6 +11,7 @@ Repo operativa per il lancio del servizio Fractional COO. Single source of truth
 ├── JOBS.md          → Job applications
 ├── EVENTS.md        → Eventi, prep, follow-up
 ├── CASHFLOW.md      → Cash flow tracking
+├── MARKET_INTEL.md  → Pattern e linguaggio estratti da JD e ricerca
 ├── CHANGELOG.md     → Log cronologico: cosa è successo, quando
 └── assets/
     └── CV_Sabrina_Fadda.pdf
