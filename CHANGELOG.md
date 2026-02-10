@@ -4,6 +4,18 @@ Log cronologico inverso. Entry più recente in cima. Mai editare entry passate.
 
 ---
 
+## 11 Feb 2026 — Joko interview + competitive intel
+
+**Jobs:**
+- Joko: Interview 1 schedulata → **Wed 18 Feb 14:00-14:20** (Google Meet). Operations Manager, Business Operations. Match 85%.
+
+**Competitive Intelligence (MARKET_INTEL.md):**
+- Aggiunto Brian Bawden / OLYRA (Barcelona): fractional COO per startup, direttamente nel nostro spazio. Web presence debole, ma posizionato su "chaos to control". Target: startup 10→50+ persone. Potenziale peer contact.
+- Aggiunto Guy Barretta / "The COO Guy" (US): fractional COO per real estate/franchise. Non competitor diretto, ma benchmark utile per positioning e content strategy. Brand chiaro, numeri quantificati, articoli educativi su LinkedIn.
+- Aggiunta sezione "Pattern Trasversali dai Competitor" con implicazioni per positioning.
+
+---
+
 ## 10 Feb 2026 (notte) — Aggiornamento post-conversazione Emma + risposte pendenti
 
 **Outreach:**

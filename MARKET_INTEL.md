@@ -98,6 +98,65 @@ Segmenti dove il bisogno sembra più acuto basato sui pattern.
 
 ---
 
+## Competitive Landscape — Fractional COO Practitioners
+
+Profili di practitioner che fanno (o dicono di fare) quello che vuoi fare tu. Non per copiarli — per capire come si posizionano, che linguaggio usano, e dove c'è spazio.
+
+### Brian Bawden — OLYRA (Barcelona)
+
+| Campo | Dettaglio |
+|-------|----------|
+| Company | OLYRA — "Liderazgo estratégico on-demand para startups y pymes" |
+| Location | Barcelona |
+| Company size | 2-10 |
+| Target | Startups growing from 10 to 50+ people |
+| Services | Fractional COO/CFO, Projects On-Demand, Business Booster, CEO Sparring Partner |
+| Positioning language | "growth chaos into systems", "chaos to control", "human-first, data-aware, allergic to complexity" |
+| Pricing | Non pubblico |
+| Web presence | Scarsa — poco indicizzato, probabilmente molto recente |
+| LinkedIn | Anche su VANQUISH Group (Madrid) — "helps organizations grow by connecting people, strategy, and operations" |
+
+**Analisi:**
+- **Direttamente nel tuo spazio**: stessa città, stesso target (startup in scaling), stesso servizio.
+- **Il suo linguaggio** ("chaos to control", "human-first") è più emotivo/branding del tuo. Tu parli di "interfacce tra dipartimenti" — lui parla di "chaos".
+- **Differenziazione potenziale**: lui sembra più generalista (COO + CFO + "sparring partner"). Tu hai un angolo specifico: cross-functional diagnostic, P&L visibility, margine perso negli handoff.
+- **Rischio**: se un founder BCN cerca "fractional COO Barcelona", trova lui. Ma la sua web presence è debole — spazio per chi si posiziona prima.
+- **Opportunità**: potenziale peer contact. Chi fa lo stesso mestiere nella stessa città può referrare quando non è il fit giusto.
+
+### Guy Barretta — "The COO Guy" / Barretta Consulting (US)
+
+| Campo | Dettaglio |
+|-------|----------|
+| Company | Barretta Consulting / thecooguy.com |
+| Location | New Jersey, US |
+| Founded | Giugno 2023 |
+| Target | Real estate brokerages, franchise owners, SMB ($5-10M revenue) |
+| Experience | 25+ anni, COO at Coldwell Banker, scaled 130→200+ agents across 8 offices |
+| Services | Fractional COO, M&A advisory, strategic growth, succession planning |
+| Positioning language | "take the operational load off your shoulders", "design better systems, delegate more effectively, scale with purpose" |
+| Pricing | Non pubblico (market rate fractional COO US: $3-10K/mo) |
+| Content strategy | LinkedIn Pulse articles, thought leadership, thecooguy.com con media page |
+| Key achievement | $138M real estate transaction (Vanderveer Estates, 59 buildings) |
+
+**Analisi:**
+- **Non competitor diretto**: mercato diverso (US, real estate/franchise). Ma utile come benchmark di positioning.
+- **Cosa fa bene**: ha un brand chiaro ("The COO Guy"), scrive contenuti educativi ("What is a Fractional COO?", "Consultant vs Fractional COO?"), quantifica i risultati (130→200+ agents, $100M budget, $138M deal).
+- **Cosa puoi imparare**: il suo content strategy è 101 ma funziona — definisce il ruolo, spiega la differenza con un consultant, usa numeri reali. Tu hai numeri comparabili (team 1→17, P&L ownership, 20+ hire/fire).
+- **Differenza chiave**: lui è vertical (real estate). Tu sei horizontal (cross-functional diagnostic per qualsiasi startup in scaling). Il suo messaggio è "tolgo il peso operativo". Il tuo è "trovo dove il margine si perde".
+- **Nota**: è anche COO full-time at Anything Real Estate (da Mar 2025) + fractional. Modello ibrido.
+
+### Pattern Trasversali dai Competitor
+
+| Pattern | Evidenza | Implicazione per te |
+|---------|----------|---------------------|
+| "Chaos → Structure" come narrative | OLYRA: "chaos to control". Barretta: "design better systems" | Il mercato risponde a narrative di trasformazione. Il tuo "trovo dove il margine si perde" è più chirurgico — potenziale differenziatore ma anche potenziale problema se troppo tecnico per un founder stressed. |
+| Servizio bundle (COO + CFO + sparring) | OLYRA offre 4 servizi distinti | Attenzione a non posizionarti troppo stretto (solo diagnostic) se il mercato vuole un pacchetto. Ma: vendere un pacchetto prima di validare = errore WorkLess. |
+| Nessuno pricing pubblico | Né OLYRA né Barretta pubblicano prezzi | Standard nel fractional. I tuoi €2.5-4K diagnostic + €4-6K/mo retainer sono nella fascia giusta per EU. |
+| Content come acquisition channel | Barretta scrive articoli educativi su LinkedIn | Dopo validazione, content è il canale naturale per te. Ma NON ora — prima valida, poi costruisci. |
+| Track record quantificato | Barretta: "130→200+ agents", "$138M deal" | Tu hai: "team 1→17", "P&L ownership", "20+ hire/fire". Usali nelle conversazioni di validazione. |
+
+---
+
 ## Input da Ricerca (non-JD)
 
 *(Sezione per pattern estratti da subreddit, gruppi, articoli, conversazioni di validazione)*
