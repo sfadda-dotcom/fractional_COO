@@ -4,6 +4,20 @@ Log cronologico inverso. Entry più recente in cima. Mai editare entry passate.
 
 ---
 
+## 11 Feb 2026 (update 3) — Full competitive analysis + pricing benchmark
+
+**Competitive Analysis:**
+- Creato `competitive_analysis.html` con analisi completa: competitor cards, comparison matrix, positioning map, pricing benchmark EU, piattaforme, strategic insights.
+- Pricing benchmark EU: diagnostic €10-50K (nostro €2.5-4K = sotto mercato), retainer €5-15K/mo standard (nostro €4-6K = fascia bassa).
+- Piattaforme EU: Fractional-CSuite.com (BCN 29% Spain), Maestro (EU-wide con BCN), Toptal, Shiny/Vendux.
+- Key insight: il quadrante "operations specialist + cross-functional diagnostic" a Barcelona è vuoto. Ma va validato che i founder lo cerchino.
+- Aggiunte 5 domande per conversazioni di validazione derivate dall'analisi competitiva.
+
+**Jobs:**
+- Joko interview confermata: Wed 18 Feb 14:00-14:20 CET. Invite da Julien Mayer (recruiter). Hiring manager: François Panico.
+
+---
+
 ## 11 Feb 2026 (update 2) — Caroline Cadwell: competitor #1
 
 **Competitive Intelligence (MARKET_INTEL.md):**

@@ -81,7 +81,14 @@ Pattern di problemi che le aziende stanno cercando di risolvere attraverso quest
 
 ### Implicazione per pricing Fractional COO
 
-Un COO full-time costa €80-150K+/anno. Il tuo retainer a €4-6K/mese (€48-72K/anno) è un 30-50% del costo di un hire full-time. Questo è un argomento di vendita forte: "il 50% del costo, 100% della competenza, zero onboarding di 6 mesi."
+Un COO full-time costa €80-150K+/anno. Il tuo retainer a €4-6K/mese (€48-72K/anno) è un 30-50% del costo di un hire full-time. Argomento di vendita: "il 50% del costo, 100% della competenza, zero onboarding di 6 mesi."
+
+**⚠️ Benchmark EU (da ricerca Feb 2026):**
+- Diagnostic sprint mercato EU: **€10-50K** (il tuo €2.5-4K è 4-10x sotto)
+- Retainer mensile mercato EU: **€5-15K/mo** standard, **€10-20K/mo** experienced (il tuo €4-6K è nella fascia bassa)
+- Engagement models: 90-day sprint (emergente), retainer + equity (early-stage), day rate €1.5-3K/giorno
+- Piattaforme EU: Fractional-CSuite.com (BCN 29% del mercato Spain), Maestro (BCN-Zurich), Toptal
+- Vedi `competitive_analysis.html` per analisi completa
 
 ---
 

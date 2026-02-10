@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Competitive Analysis — Fractional COO Barcelona/EU</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f1117; color: #e4e4e7; line-height: 1.6; }
+
+  .container { max-width: 1200px; margin: 0 auto; padding: 24px; }
+
+  h1 { font-size: 28px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+  .subtitle { color: #71717a; font-size: 14px; margin-bottom: 32px; }
+
+  h2 { font-size: 20px; font-weight: 600; color: #fff; margin: 32px 0 16px; padding-bottom: 8px; border-bottom: 1px solid #27272a; }
+  h3 { font-size: 16px; font-weight: 600; color: #a1a1aa; margin: 20px 0 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+
+  /* Competitor Cards */
+  .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 16px; margin-bottom: 32px; }
+
+  .card { background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 20px; position: relative; transition: border-color 0.2s; }
+  .card:hover { border-color: #3f3f46; }
+  .card.you { border-color: #f59e0b; background: #1c1a15; }
+  .card.top-threat { border-color: #ef4444; }
+
+  .card-badge { position: absolute; top: 12px; right: 12px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 2px 8px; border-radius: 4px; }
+  .badge-you { background: #f59e0b; color: #000; }
+  .badge-threat { background: #ef4444; color: #fff; }
+  .badge-peer { background: #3b82f6; color: #fff; }
+  .badge-benchmark { background: #6b7280; color: #fff; }
+
+  .card-name { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 2px; }
+  .card-company { font-size: 13px; color: #71717a; margin-bottom: 12px; }
+  .card-location { font-size: 12px; color: #a1a1aa; margin-bottom: 12px; display: flex; align-items: center; gap: 4px; }
+  .card-location::before { content: "📍"; }
+
+  .card-field { margin-bottom: 8px; }
+  .card-label { font-size: 11px; font-weight: 600; color: #71717a; text-transform: uppercase; letter-spacing: 0.5px; }
+  .card-value { font-size: 13px; color: #d4d4d8; }
+
+  .card-quote { font-style: italic; color: #a1a1aa; font-size: 13px; border-left: 2px solid #3f3f46; padding-left: 10px; margin: 12px 0; }
+
+  .card-numbers { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0; }
+  .number-chip { background: #27272a; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; color: #e4e4e7; }
+
+  /* Comparison Matrix */
+  .matrix-wrap { overflow-x: auto; margin-bottom: 32px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: #1e1e22; color: #a1a1aa; font-weight: 600; text-transform: uppercase; font-size: 11px; letter-spacing: 0.5px; padding: 10px 12px; text-align: left; border-bottom: 1px solid #27272a; position: sticky; top: 0; }
+  td { padding: 10px 12px; border-bottom: 1px solid #1e1e22; vertical-align: top; }
+  tr:hover td { background: #1a1a1e; }
+  .col-you { background: #1c1a15 !important; }
+  .highlight { color: #f59e0b; font-weight: 600; }
+  .weak { color: #ef4444; }
+  .strong { color: #22c55e; }
+  .neutral { color: #a1a1aa; }
+
+  /* Positioning Map */
+  .pos-map { position: relative; width: 100%; max-width: 700px; height: 500px; background: #18181b; border: 1px solid #27272a; border-radius: 12px; margin: 16px auto 32px; }
+  .axis-label { position: absolute; color: #71717a; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+  .axis-x-left { left: 12px; top: 50%; transform: translateY(-50%) rotate(-90deg); transform-origin: center; }
+  .axis-x-right { right: 12px; top: 50%; transform: translateY(-50%) rotate(90deg); transform-origin: center; }
+  .axis-y-top { top: 8px; left: 50%; transform: translateX(-50%); }
+  .axis-y-bottom { bottom: 8px; left: 50%; transform: translateX(-50%); }
+
+  .crosshair-h { position: absolute; left: 40px; right: 40px; top: 50%; height: 1px; background: #27272a; }
+  .crosshair-v { position: absolute; top: 40px; bottom: 40px; left: 50%; width: 1px; background: #27272a; }
+
+  .dot { position: absolute; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); cursor: pointer; transition: transform 0.2s; }
+  .dot:hover { transform: translate(-50%, -50%) scale(1.5); }
+  .dot-label { position: absolute; font-size: 11px; font-weight: 600; white-space: nowrap; transform: translateX(-50%); }
+
+  .dot-you { background: #f59e0b; box-shadow: 0 0 8px rgba(245,158,11,0.4); }
+  .dot-cadwell { background: #ef4444; }
+  .dot-bawden { background: #3b82f6; }
+  .dot-barretta { background: #6b7280; }
+
+  /* Pricing */
+  .pricing-bar { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+  .pricing-label { width: 200px; font-size: 13px; color: #d4d4d8; flex-shrink: 0; }
+  .bar-track { flex: 1; height: 24px; background: #27272a; border-radius: 4px; position: relative; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 4px; display: flex; align-items: center; padding-left: 8px; font-size: 11px; font-weight: 600; color: #000; }
+  .bar-you { background: #f59e0b; }
+  .bar-market { background: #3b82f6; }
+  .bar-fulltime { background: #ef4444; }
+
+  /* Insights */
+  .insight-box { background: #18181b; border: 1px solid #27272a; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+  .insight-box.warning { border-color: #f59e0b; }
+  .insight-box.danger { border-color: #ef4444; }
+  .insight-box.opportunity { border-color: #22c55e; }
+  .insight-icon { font-size: 20px; margin-bottom: 8px; }
+  .insight-title { font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 6px; }
+  .insight-text { font-size: 13px; color: #a1a1aa; }
+
+  .insights-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; }
+
+  /* Platforms */
+  .platform-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .platform-item { background: #18181b; border: 1px solid #27272a; border-radius: 8px; padding: 14px; }
+  .platform-name { font-weight: 700; color: #fff; font-size: 14px; }
+  .platform-desc { font-size: 12px; color: #71717a; margin-top: 4px; }
+  .platform-tag { display: inline-block; background: #27272a; color: #a1a1aa; font-size: 10px; padding: 2px 6px; border-radius: 3px; margin-top: 6px; }
+
+  /* Footer */
+  .footer { text-align: center; color: #52525b; font-size: 12px; padding: 32px 0 16px; border-top: 1px solid #1e1e22; margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Competitive Analysis</h1>
+<p class="subtitle">Fractional COO — Barcelona / EU SaaS Market &bull; Feb 2026</p>
+
+<!-- ============ COMPETITOR CARDS ============ -->
+<h2>Competitor Profiles</h2>
+<div class="cards-grid">
+
+  <!-- SABRINA -->
+  <div class="card you">
+    <span class="card-badge badge-you">YOU</span>
+    <div class="card-name">Sabrina Fadda</div>
+    <div class="card-company">Fractional COO (launching)</div>
+    <div class="card-location">Barcelona</div>
+    <div class="card-field"><span class="card-label">Target</span><div class="card-value">&euro;1-15M revenue, 30-100 headcount, post-seed/Series A</div></div>
+    <div class="card-field"><span class="card-label">Angle</span><div class="card-value">Cross-functional diagnostic. "Il margine si perde nelle interfacce tra dipartimenti."</div></div>
+    <div class="card-field"><span class="card-label">Background</span><div class="card-value">Alibaba, ProntoPro, ShopFully, Deloitte, EY. 10 anni ops/finance.</div></div>
+    <div class="card-numbers">
+      <span class="number-chip">Team 1→17</span>
+      <span class="number-chip">P&L ownership</span>
+      <span class="number-chip">20+ hire/fire</span>
+      <span class="number-chip">Co-founder Nuvis</span>
+    </div>
+    <div class="card-field"><span class="card-label">Pricing</span><div class="card-value">&euro;2.5-4K diagnostic &bull; &euro;4-6K/mo retainer</div></div>
+    <div class="card-field"><span class="card-label">Web presence</span><div class="card-value weak">Inesistente (pre-lancio)</div></div>
+  </div>
+
+  <!-- CAROLINE -->
+  <div class="card top-threat">
+    <span class="card-badge badge-threat">#1 THREAT</span>
+    <div class="card-name">Caroline Cadwell</div>
+    <div class="card-company">Fractional COO / CRO</div>
+    <div class="card-location">Barcelona</div>
+    <div class="card-field"><span class="card-label">Target</span><div class="card-value">$1-10M ARR, SaaS &amp; subscription businesses</div></div>
+    <div class="card-field"><span class="card-label">Angle</span><div class="card-value">Revenue growth, GTM clarity, scaling teams, fundraising readiness</div></div>
+    <div class="card-quote">"I help founders and teams find focus, unity, and forward motion."</div>
+    <div class="card-field"><span class="card-label">Background</span><div class="card-value">Yelp, Wallapop, Unpluq (Techstars '22). 15+ anni SaaS US+EU.</div></div>
+    <div class="card-numbers">
+      <span class="number-chip">ARR 15&times; in 18mo</span>
+      <span class="number-chip">4 exits</span>
+      <span class="number-chip">5K+ subscribers</span>
+      <span class="number-chip">GTM orgs 30+</span>
+    </div>
+    <div class="card-field"><span class="card-label">Pricing</span><div class="card-value">Non pubblico</div></div>
+    <div class="card-field"><span class="card-label">Web presence</span><div class="card-value strong">LinkedIn 2.7K followers, RevOps events at Itnig, media coverage (BBC, WSJ via Unpluq)</div></div>
+    <div class="card-field"><span class="card-label">Network overlap</span><div class="card-value highlight">Mutual: Sanitha Alam (tua pipeline)</div></div>
+  </div>
+
+  <!-- BAWDEN -->
+  <div class="card">
+    <span class="card-badge badge-peer">PEER</span>
+    <div class="card-name">Brian Bawden</div>
+    <div class="card-company">OLYRA</div>
+    <div class="card-location">Barcelona</div>
+    <div class="card-field"><span class="card-label">Target</span><div class="card-value">Startups &amp; SME 10→50+ people</div></div>
+    <div class="card-field"><span class="card-label">Angle</span><div class="card-value">Generalist: COO/CFO, Projects On-Demand, Business Booster, CEO Sparring</div></div>
+    <div class="card-quote">"Growth chaos into systems. Human-first, data-aware, allergic to complexity."</div>
+    <div class="card-field"><span class="card-label">Background</span><div class="card-value">VANQUISH Group (Madrid). Dettagli limitati.</div></div>
+    <div class="card-field"><span class="card-label">Pricing</span><div class="card-value">Non pubblico</div></div>
+    <div class="card-field"><span class="card-label">Web presence</span><div class="card-value weak">Quasi inesistente. Non indicizzato.</div></div>
+  </div>
+
+  <!-- BARRETTA -->
+  <div class="card">
+    <span class="card-badge badge-benchmark">BENCHMARK</span>
+    <div class="card-name">Guy Barretta</div>
+    <div class="card-company">"The COO Guy" / Barretta Consulting</div>
+    <div class="card-location">New Jersey, US</div>
+    <div class="card-field"><span class="card-label">Target</span><div class="card-value">Real estate, franchise, SMB ($5-10M revenue)</div></div>
+    <div class="card-field"><span class="card-label">Angle</span><div class="card-value">Vertical: real estate ops, M&A advisory, succession planning</div></div>
+    <div class="card-quote">"Design better systems, delegate more effectively, scale with purpose."</div>
+    <div class="card-field"><span class="card-label">Background</span><div class="card-value">25+ anni. COO at Coldwell Banker. Scaled 130→200+ agents.</div></div>
+    <div class="card-numbers">
+      <span class="number-chip">$138M deal</span>
+      <span class="number-chip">$100M budget</span>
+      <span class="number-chip">8 offices</span>
+    </div>
+    <div class="card-field"><span class="card-label">Pricing</span><div class="card-value">Non pubblico (US market: $3-10K/mo)</div></div>
+    <div class="card-field"><span class="card-label">Web presence</span><div class="card-value strong">thecooguy.com, LinkedIn articles, media page</div></div>
+  </div>
+</div>
+
+<!-- ============ COMPARISON MATRIX ============ -->
+<h2>Comparison Matrix</h2>
+<div class="matrix-wrap">
+<table>
+  <tr>
+    <th></th>
+    <th class="col-you">SABRINA (you)</th>
+    <th>CADWELL</th>
+    <th>BAWDEN / OLYRA</th>
+    <th>BARRETTA</th>
+  </tr>
+  <tr>
+    <td><strong>Location</strong></td>
+    <td class="col-you">Barcelona</td>
+    <td>Barcelona</td>
+    <td>Barcelona</td>
+    <td>US (NJ)</td>
+  </tr>
+  <tr>
+    <td><strong>Primary angle</strong></td>
+    <td class="col-you highlight">Cross-functional diagnostic, P&L, margin leakage</td>
+    <td>Revenue/GTM, scaling, fundraising readiness</td>
+    <td>Generalist (COO+CFO+sparring)</td>
+    <td>Vertical (real estate ops)</td>
+  </tr>
+  <tr>
+    <td><strong>Target revenue</strong></td>
+    <td class="col-you">&euro;1-15M</td>
+    <td>$1-10M ARR</td>
+    <td>Startup/SME</td>
+    <td>$5-10M</td>
+  </tr>
+  <tr>
+    <td><strong>Industry focus</strong></td>
+    <td class="col-you">Horizontal (any scaling startup)</td>
+    <td>SaaS / subscription</td>
+    <td>Horizontal</td>
+    <td>Real estate / franchise</td>
+  </tr>
+  <tr>
+    <td><strong>Positioning language</strong></td>
+    <td class="col-you">"Margine perso negli handoff"</td>
+    <td>"Clarity to messy situations"</td>
+    <td>"Chaos to control"</td>
+    <td>"Scale with purpose"</td>
+  </tr>
+  <tr>
+    <td><strong>COO vs CRO lean</strong></td>
+    <td class="col-you highlight">Pure COO (ops/finance)</td>
+    <td>COO + CRO (revenue-heavy)</td>
+    <td>COO + CFO</td>
+    <td>COO + M&A</td>
+  </tr>
+  <tr>
+    <td><strong>Track record visibility</strong></td>
+    <td class="col-you weak">Low (no public case studies yet)</td>
+    <td class="strong">High (4 exits, Techstars, brand names)</td>
+    <td class="weak">Very low</td>
+    <td class="strong">High (quantified, media)</td>
+  </tr>
+  <tr>
+    <td><strong>Web presence</strong></td>
+    <td class="col-you weak">Pre-launch</td>
+    <td class="strong">LinkedIn 2.7K, events, media</td>
+    <td class="weak">Near zero</td>
+    <td class="strong">Website + articles</td>
+  </tr>
+  <tr>
+    <td><strong>Content strategy</strong></td>
+    <td class="col-you neutral">Not started</td>
+    <td>RevOps events, LinkedIn, community</td>
+    <td class="neutral">None visible</td>
+    <td>Educational articles, thought leadership</td>
+  </tr>
+  <tr>
+    <td><strong>Pricing (known)</strong></td>
+    <td class="col-you">&euro;2.5-4K diag + &euro;4-6K/mo</td>
+    <td>Non pubblico</td>
+    <td>Non pubblico</td>
+    <td>Non pubblico</td>
+  </tr>
+  <tr>
+    <td><strong>BCN network depth</strong></td>
+    <td class="col-you neutral">Building</td>
+    <td class="strong">Deep (Yelp/Wallapop/Itnig/RevOps community)</td>
+    <td class="neutral">Unknown</td>
+    <td>N/A (US)</td>
+  </tr>
+  <tr>
+    <td><strong>Unique advantage</strong></td>
+    <td class="col-you highlight">Finance + Ops dual lens. P&L diagnostic. Deloitte/EY rigor.</td>
+    <td>Revenue growth track record. Founder experience. Media credibility.</td>
+    <td>Price? Flexibility?</td>
+    <td>25yr vertical depth. Brand ("The COO Guy").</td>
+  </tr>
+</table>
+</div>
+
+<!-- ============ POSITIONING MAP ============ -->
+<h2>Positioning Map</h2>
+<div class="pos-map">
+  <span class="axis-label axis-y-top">REVENUE / GTM FOCUS</span>
+  <span class="axis-label axis-y-bottom">OPERATIONS / P&L FOCUS</span>
+  <span class="axis-label" style="position:absolute; left:60px; top:50%; transform:translateY(-50%); font-size:11px; color:#71717a;">GENERALIST</span>
+  <span class="axis-label" style="position:absolute; right:60px; top:50%; transform:translateY(-50%); font-size:11px; color:#71717a;">SPECIALIST</span>
+
+  <div class="crosshair-h"></div>
+  <div class="crosshair-v"></div>
+
+  <!-- Cadwell: revenue-focused, moderately specialized (SaaS) -->
+  <div class="dot dot-cadwell" style="left: 62%; top: 25%;" title="Caroline Cadwell"></div>
+  <div class="dot-label" style="left: 62%; top: 15%; color: #ef4444;">Cadwell</div>
+
+  <!-- Bawden: generalist, middle ground -->
+  <div class="dot dot-bawden" style="left: 30%; top: 45%;" title="Brian Bawden / OLYRA"></div>
+  <div class="dot-label" style="left: 30%; top: 35%; color: #3b82f6;">Bawden</div>
+
+  <!-- Barretta: ops-leaning, very specialized (real estate) -->
+  <div class="dot dot-barretta" style="left: 85%; top: 60%;" title="Guy Barretta"></div>
+  <div class="dot-label" style="left: 85%; top: 68%; color: #6b7280;">Barretta</div>
+
+  <!-- Sabrina: ops/P&L focused, cross-functional specialist -->
+  <div class="dot dot-you" style="left: 65%; top: 72%;" title="Sabrina Fadda"></div>
+  <div class="dot-label" style="left: 65%; top: 80%; color: #f59e0b; font-size: 13px;">YOU</div>
+
+  <!-- Quadrant labels -->
+  <div style="position:absolute; left:60px; top:60px; color:#1e1e22; font-size:40px; font-weight:800; opacity:0.3;">I</div>
+  <div style="position:absolute; right:60px; top:60px; color:#1e1e22; font-size:40px; font-weight:800; opacity:0.3;">II</div>
+  <div style="position:absolute; left:60px; bottom:60px; color:#1e1e22; font-size:40px; font-weight:800; opacity:0.3;">III</div>
+  <div style="position:absolute; right:60px; bottom:60px; color:#1e1e22; font-size:40px; font-weight:800; opacity:0.3;">IV</div>
+</div>
+<p style="text-align:center; color:#71717a; font-size:12px; margin-top:-20px; margin-bottom:24px;">
+  Il tuo quadrante (IV): <strong style="color:#f59e0b">Operations specialist</strong> — nessun competitor diretto qui. Cadwell è in II (revenue specialist). Bawden in I (generalist). Lo spazio è aperto.
+</p>
+
+<!-- ============ PRICING BENCHMARK ============ -->
+<h2>Pricing Benchmark — EU Market</h2>
+
+<div style="margin-bottom:24px;">
+<h3>Monthly Retainer Comparison</h3>
+
+<div class="pricing-bar">
+  <div class="pricing-label highlight">Tu (retainer)</div>
+  <div class="bar-track"><div class="bar-fill bar-you" style="width: 24%;">&euro;4-6K/mo</div></div>
+</div>
+<div class="pricing-bar">
+  <div class="pricing-label">EU Market (standard)</div>
+  <div class="bar-track"><div class="bar-fill bar-market" style="width: 60%;">&euro;5-15K/mo</div></div>
+</div>
+<div class="pricing-bar">
+  <div class="pricing-label">EU Market (experienced)</div>
+  <div class="bar-track"><div class="bar-fill bar-market" style="width: 80%;">&euro;10-20K/mo</div></div>
+</div>
+<div class="pricing-bar">
+  <div class="pricing-label weak">Full-time COO (EU)</div>
+  <div class="bar-track"><div class="bar-fill bar-fulltime" style="width: 100%;">&euro;80-150K+/anno (&euro;7-12K/mo)</div></div>
+</div>
+
+<p style="color:#71717a; font-size:12px; margin-top:12px;">
+  Il tuo retainer (&euro;4-6K/mo) è nella fascia bassa del mercato EU. Non è necessariamente un problema in fase di lancio — ma sappi che c'è spazio per salire dopo la validazione. Il mercato EU sta a &euro;5-15K/mo per engagement standard.
+</p>
+</div>
+
+<div style="margin-bottom:24px;">
+<h3>Engagement Models nel Mercato</h3>
+<div class="matrix-wrap">
+<table>
+  <tr>
+    <th>Modello</th>
+    <th>Rate</th>
+    <th>Durata tipica</th>
+    <th>Note</th>
+  </tr>
+  <tr>
+    <td><strong>Diagnostic sprint</strong></td>
+    <td>&euro;10-50K (fisso)</td>
+    <td>6-12 settimane</td>
+    <td>Assessment + recommendations. Il tuo &euro;2.5-4K diagnostic &egrave; molto sotto mercato.</td>
+  </tr>
+  <tr>
+    <td><strong>Monthly retainer</strong></td>
+    <td>&euro;5-25K/mo</td>
+    <td>3-12 mesi</td>
+    <td>10-20 ore/settimana. Commitment minimo 3 mesi.</td>
+  </tr>
+  <tr>
+    <td><strong>Day rate</strong></td>
+    <td>&euro;1,500-3,000/giorno</td>
+    <td>Ad hoc</td>
+    <td>Per consulenze spot o board meetings.</td>
+  </tr>
+  <tr>
+    <td><strong>90-day sprint</strong></td>
+    <td>Retainer fisso 3 mesi</td>
+    <td>90 giorni</td>
+    <td>Mese 1: observe. Mese 2: stabilize. Mese 3: standardize. Modello emergente in EU.</td>
+  </tr>
+  <tr>
+    <td><strong>Retainer + equity</strong></td>
+    <td>Retainer ridotto + 0.5-3% equity</td>
+    <td>1-4 anni vesting</td>
+    <td>Per early-stage. Riduce cash burden per la startup.</td>
+  </tr>
+</table>
+</div>
+</div>
+
+<!-- ============ PLATFORMS ============ -->
+<h2>Piattaforme Fractional in EU</h2>
+<p style="color:#71717a; font-size:13px; margin-bottom:16px;">In Europa il mercato fractional è più platform-mediated che in US. La maggior parte dei practitioner non ha brand personale forte — passano per piattaforme.</p>
+
+<div class="platform-list">
+  <div class="platform-item">
+    <div class="platform-name">Fractional-CSuite.com</div>
+    <div class="platform-desc">Europe's premier fractional executive comparator. Spain: Barcelona 29%, Madrid 43%. Crescita 35% YoY.</div>
+    <div class="platform-tag">EU-specific</div>
+    <div class="platform-tag">Spain coverage</div>
+  </div>
+  <div class="platform-item">
+    <div class="platform-name">Maestro</div>
+    <div class="platform-desc">Berlin → Barcelona → Amsterdam → Zurich. Ogni Maestro ha 10+ anni esperienza. 40% cost savings.</div>
+    <div class="platform-tag">EU-wide</div>
+    <div class="platform-tag">Barcelona presence</div>
+  </div>
+  <div class="platform-item">
+    <div class="platform-name">Toptal</div>
+    <div class="platform-desc">Top 3% vetted executives. Profili EU come Leticia Bordoni (Amsterdam, European startups).</div>
+    <div class="platform-tag">Global</div>
+    <div class="platform-tag">Vetted</div>
+  </div>
+  <div class="platform-item">
+    <div class="platform-name">Shiny / Vendux</div>
+    <div class="platform-desc">650+ vetted executives, 40+ industries. Merged Oct 2025. SaaS focus.</div>
+    <div class="platform-tag">US + EU</div>
+  </div>
+</div>
+
+<!-- ============ STRATEGIC INSIGHTS ============ -->
+<h2>Strategic Insights</h2>
+<div class="insights-grid">
+
+  <div class="insight-box opportunity">
+    <div class="insight-icon">🟢</div>
+    <div class="insight-title">Il tuo quadrante è vuoto</div>
+    <div class="insight-text">Nessun competitor a Barcelona si posiziona su "cross-functional P&L diagnostic". Cadwell è revenue/GTM. Bawden è generalist. Lo spazio "dove esattamente il margine si perde tra dipartimenti" è non-occupato. Ma: devi verificare che i founder <em>cerchino</em> questo, non solo che lo spazio esista.</div>
+  </div>
+
+  <div class="insight-box danger">
+    <div class="insight-icon">🔴</div>
+    <div class="insight-title">Il tuo pricing è sotto mercato</div>
+    <div class="insight-text">Il tuo diagnostic a &euro;2.5-4K è 4-10x sotto il mercato EU (&euro;10-50K). Il retainer a &euro;4-6K/mo è nella fascia bassa (&euro;5-15K standard). In fase di lancio può essere strategico (barrier-to-entry basso), ma non fissarti su questi numeri. Dopo le prime 2-3 delivery, alza.</div>
+  </div>
+
+  <div class="insight-box warning">
+    <div class="insight-icon">🟡</div>
+    <div class="insight-title">Il linguaggio "chirurgico" va testato</div>
+    <div class="insight-text">Tutti i competitor usano linguaggio emotivo: "chaos to clarity", "find focus", "scale with purpose". Tu usi linguaggio diagnostico: "margine perso negli handoff". È più preciso, ma i founder stressati potrebbero non riconoscersi. Nelle conversazioni di validazione, testa entrambi i linguaggi e vedi quale risuona.</div>
+  </div>
+
+  <div class="insight-box opportunity">
+    <div class="insight-icon">🟢</div>
+    <div class="insight-title">Finance + Ops = differenziatore reale</div>
+    <div class="insight-text">Nessun competitor a Barcelona ha il tuo dual lens: Deloitte/EY (finance rigor) + Alibaba/ProntoPro/ShopFully (ops scaling). Cadwell è revenue-side. Bawden è generalista. Il fatto che puoi leggere un P&L e mapparlo ai processi operativi è un angolo unico.</div>
+  </div>
+
+  <div class="insight-box warning">
+    <div class="insight-icon">🟡</div>
+    <div class="insight-title">Web presence = zero vs competitor con 2.7K followers</div>
+    <div class="insight-text">Cadwell ha LinkedIn con 2.7K followers, eventi RevOps a Itnig, media coverage (BBC, WSJ). Tu parti da zero. Dopo validazione, il content gap è il primo da colmare. Ma: NON prima di validare. È l'errore WorkLess.</div>
+  </div>
+
+  <div class="insight-box opportunity">
+    <div class="insight-icon">🟢</div>
+    <div class="insight-title">Il mercato EU è platform-mediated</div>
+    <div class="insight-text">La maggior parte dei fractional COO in EU non ha brand personale. Passano per Fractional-CSuite, Maestro, Toptal. Questo significa: (1) chi costruisce un brand personale ha un vantaggio, (2) le piattaforme sono un canale di distribuzione post-validazione da considerare.</div>
+  </div>
+
+</div>
+
+<!-- ============ NEXT STEPS ============ -->
+<h2>Domande per le Conversazioni di Validazione</h2>
+<div class="insight-box" style="margin-bottom: 16px;">
+  <div class="insight-text">Queste domande emergono direttamente dall'analisi competitiva. Da testare con Oliver, Jordi, Sanitha, e chiunque altro.</div>
+</div>
+<div class="matrix-wrap">
+<table>
+  <tr><th>#</th><th>Domanda</th><th>Perché</th></tr>
+  <tr><td>1</td><td>"Quando qualcosa non funziona nell'azienda, come lo descriveresti?"</td><td>Testare se usano linguaggio emotivo ("chaos") o diagnostico ("i team non si parlano")</td></tr>
+  <tr><td>2</td><td>"Hai mai cercato aiuto esterno per problemi operativi? Cosa hai cercato?"</td><td>Capire se cercano "fractional COO" o un'altra keyword</td></tr>
+  <tr><td>3</td><td>"Se potessi avere una persona part-time che ti aiuta con le operations, quale sarebbe il primo problema che le daresti?"</td><td>Validare se il pain point è revenue/GTM (territorio Cadwell) o cross-functional/P&L (tuo territorio)</td></tr>
+  <tr><td>4</td><td>"I tuoi KPI sono verdi ma il P&L non scala — ti è mai successo?"</td><td>Testare se il tuo positioning statement risuona</td></tr>
+  <tr><td>5</td><td>"Quanto pagheresti per una diagnosi che in 2-4 settimane ti dice esattamente dove perdi margine?"</td><td>Validare pricing del diagnostic. Il mercato dice &euro;10-50K. Tu dici &euro;2.5-4K. Chi ha ragione?</td></tr>
+</table>
+</div>
+
+<div class="footer">
+  Competitive Analysis &mdash; Sabrina Fadda, Fractional COO Launch &bull; Generated Feb 2026 &bull; Data: LinkedIn, Web Research, Market Reports
+</div>
+
+</div>
+</body>
+</html>
