@@ -8,78 +8,25 @@
 
 ## Attive
 
-### Nuitée — Revenue & Ops Manager
-- **Data:** 4 Feb | **Status:** 🔵 Interview 10 Feb 12:30 | **Match:** 80%
-- **Location:** EU Remote (Palma hub) | **Remote:** Yes | **Salary:** €75K richiesti
-- **Key Requirements:** Lead-to-cash, CRM (HubSpot), forecasting, cross-functional, RevOps
-- **My Gaps:** Travel tech specific (minor)
-- **Next Steps:** ❓ L'interview di oggi — com'è andata?
-- **Notes:** RevOps focus. Prep: ShopFully RevOps story. Interview con Michaël Rey.
-
-### Joko — Ops Manager, Business Operations
-- **Data:** 4 Feb | **Status:** 🔵 Interview scheduled | **Match:** 85%
-- **Location:** Barcelona/Paris (Remote) | **Remote:** Yes | **Salary:** Not specified
-- **Key Requirements:** Finance Ops, automation, CRM, process optimization, cross-functional, tech-first
-- **My Gaps:** Top-tier education requirement (French Grandes Écoles bias)
-- **Next Steps:** Data primo colloquio TBD
-- **Notes:** Strong match. Tech company, profitable, scaling. Finance Ops scope perfect fit. Barcelona office. Full application con custom answers.
-
-### Vial — Manager Strategy & Ops
-- **Data:** 4 Feb | **Status:** ⏳ Applied | **Match:** 75%
-- **Location:** Remote (EU/Global) | **Remote:** Yes | **Salary:** $150-200K
-- **Key Requirements:** Strategy, cross-functional, SQL, dashboards, AI workflows, reports to COO
-- **My Gaps:** Biotech/clinical trials sector (no direct exp)
-- **Next Steps:** Wait
-- **Notes:** High salary. Biotech ma sector exp non esplicitamente richiesta. Reports directly to COO.
-
-### saas.group / ScraperAPI — Head of Ops & Revenue
-- **Data:** 4 Feb | **Status:** ⏳ Applied | **Match:** 80%
-- **Location:** Remote (EEA) | **Remote:** Yes | **Salary:** Not specified
-- **Key Requirements:** Post-merger integration, OKRs, KPIs, B2B SaaS, data-driven, cross-functional
-- **My Gaps:** No pure SaaS background
-- **Next Steps:** Messaged Ferenc Csonka (hiring team)
-- **Notes:** Strong match — post-merger integration experience è key differentiator.
-
-### AdTech/Gaming Company (exec search) — COO
-- **Data:** 7 Feb | **Status:** ⏳ Applied | **Match:** 70%
-- **Location:** Remote (EU/US) | **Remote:** Yes | **Salary:** Not specified (C-level)
-- **Key Requirements:** COO, 230+ emp, AdTech, Gaming, multi-BU, KPIs, scaling
-- **My Gaps:** No AdTech/Gaming exp, 10 vs 12 yrs required
-- **Next Steps:** Via executive search firm
-- **Notes:** Real COO role at scale. Worth pursuing.
-
-### Keystone Recruitment — COO (Remote)
-- **Data:** 2 Feb | **Status:** ⏳ Applied | **Match:** 60%
-- **Location:** EU (Remote) | **Remote:** Yes | **Salary:** Unknown
-- **Key Requirements:** Founders/Ex-Founders, data systems, startup 20-150 people
-- **My Gaps:** Not ex-founder, seems like consulting gig not real COO
-- **Next Steps:** Wait
-- **Notes:** Short-term engagement, documenting data systems. Seems like research project, not full COO role.
+| Company | Role | Date Applied | Status | Match % | Location | Remote? | Salary Range | Key Requirements | My Gaps | Next Steps | Notes |
+|---------|------|-------------|--------|---------|----------|---------|-------------|-----------------|---------|------------|-------|
+| Nuitée | Revenue and Operations Manager | 2026-02-04 | Interview Scheduled | 80% | EU Remote (Palma hub) | Yes | €75K (requested) | Lead-to-cash, CRM (HubSpot), forecasting, cross-functional, RevOps | Travel tech specific (minor) | ❓ Interview 10 Feb 12:30 — com'è andata? | RevOps focus. Salary requested: €75K. Prep: ShopFully RevOps story |
+| Joko | Operations Manager, Business Operations | 2026-02-04 | Interview Scheduled | 85% | Barcelona/Paris (Remote) | Yes | Not specified | Finance Ops, automation, CRM, process optimization, cross-functional, tech-first | Top-tier education requirement (French Grandes Écoles bias) | First interview - data TBD | Strong match. Tech company, profitable, scaling. Finance Ops scope perfect fit. Barcelona office. Completed full application with custom answers. |
+| Vial | Manager - Strategy and Operations | 2026-02-04 | Applied | 75% | Remote (EU/Global) | Yes | $150K-$200K | Strategy, cross-functional, SQL, dashboards, AI workflows, reports to COO | Biotech/clinical trials sector (no direct exp) | Wait for response | High salary. Biotech but sector exp not explicitly required. Reports directly to COO. |
+| saas.group / ScraperAPI | Head of Operations and Revenue | 2026-02-04 | Applied | 80% | Remote (EEA) | Yes | Not specified | Post-merger integration, OKRs, KPIs, B2B SaaS, data-driven, cross-functional | No pure SaaS background | Messaged Ferenc Csonka (hiring team) | Strong match - post-merger integration experience is key differentiator |
+| AdTech/Gaming Company (exec search) | Chief Operating Officer | 2026-02-07 | Applied | 70% | Remote (EU/US) | Yes | Not specified (C-level) | COO, 230+ emp, AdTech, Gaming, multi-BU, KPIs, scaling | No AdTech/Gaming exp, 10 vs 12 yrs required | Via executive search firm | Real COO role at scale. Worth pursuing. |
+| Keystone Recruitment | Chief Operating Officer (Remote) | 2026-02-02 | Applied | 60% | EU (Remote) | Yes | Unknown | Founders/Ex-Founders, data systems, startup 20-150 people | Not ex-founder, seems like consulting gig not real COO | Wait for response | Short-term engagement, documenting data systems. Seems like research project, not full COO role. |
 
 ## Low Priority
 
-### Tu TrabajoCR — Head of Operations
-- **Data:** 4 Feb | **Status:** ⏳ Applied | **Match:** 50%
-- **Location:** Australia (Remote) | **Remote:** Yes | **Salary:** Not specified
-- **Key Requirements:** Generic ops: process design, KPIs, budgeting, team building
-- **My Gaps:** Vague JD, unclear company, timezone (Australia +8/10h)
-- **Notes:** Low effort Easy Apply. Red flags: generic JD, recruiter agency, no company details.
-
-### Arnold Ash Group — COO Live Casino
-- **Data:** 4 Feb | **Status:** ⏳ Applied | **Match:** 55%
-- **Location:** EU Remote | **Remote:** Yes | **Salary:** Not specified
-- **Key Requirements:** P&L, globally dispersed teams, operational excellence
-- **My Gaps:** Live Studio/Casino experience required — zero exp
-- **Notes:** Applied despite sector gap. Live Casino è very specific sector.
+| Company | Role | Date Applied | Status | Match % | Location | Remote? | Salary Range | Key Requirements | My Gaps | Next Steps | Notes |
+|---------|------|-------------|--------|---------|----------|---------|-------------|-----------------|---------|------------|-------|
+| Tu TrabajoCR | Head of Operations | 2026-02-04 | Applied | 50% | Australia (Remote) | Yes | Not specified | Generic ops: process design, KPIs, budgeting, team building | Vague JD, unclear company, timezone (Australia +8/10h) | Wait - low priority | Low effort Easy Apply. Red flags: generic JD, recruiter agency, no company details. Only 4 applicants. |
+| Arnold Ash Group | COO Live Casino | 2026-02-04 | Applied | 55% | EU Remote | Yes | Not specified | P&L, globally dispersed teams, operational excellence | Live Studio/Casino experience required - zero exp | Low priority - sector mismatch | Applied despite sector gap. Live Casino is very specific sector. |
 
 ## Chiuse
 
-### Zartis — Ops & Innovation Consultant
-- **Status:** ❌ Declined | **Match:** 85% | **Salary:** €35K
-- **Key Requirements:** Process architecture, automation (Zapier/Make), Power BI, 4+ yrs ops, cross-functional, systems thinking
-- **Motivo:** €35K — inaccettabile per 10+ yrs exp
-
-### Prosolbia — COO Legal Scale-Up
-- **Status:** ❌ Rejected | **Match:** 90% | **Salary:** Not specified
-- **Key Requirements:** Transformación founder-led, visibilidad márgenes, alineación cross-funcional, acompañamiento ejecutivo
-- **Motivo:** Cercano legal background specifico. Rejection gentile.
+| Company | Role | Date Applied | Status | Match % | Location | Remote? | Salary Range | Key Requirements | My Gaps | Next Steps | Notes |
+|---------|------|-------------|--------|---------|----------|---------|-------------|-----------------|---------|------------|-------|
+| Zartis | Operations & Innovation Consultant | 2026-02-02 | Declined | 85% | Remote (EMEA) | Yes | €35K (troppo basso) | Process architecture, automation (Zapier/Make), Power BI, 4+ yrs ops, cross-functional, systems thinking | Power BI (can learn), R&D tax credits (new area) | Recruiter contacted - salary €35K inaccettabile | No response. €35K è junior level, non aligned con 10+ yrs exp |
+| Prosolbia (Legal Scale-Up) | COO – Professional Services Scale-Up | 2026-02-04 | Rejected | 90% | Barcelona (On-site) | No | Not specified | Transformación founder-led, visibilidad márgenes, alineación cross-funcional, acompañamiento ejecutivo | No legal sector experience (addressed in cover letter) | Sergi risposto: focus su candidato con legal background | Rejection gentile - hanno alternativa con esperienza legal specifica |
