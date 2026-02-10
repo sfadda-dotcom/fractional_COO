@@ -4,6 +4,15 @@ Log cronologico inverso. Entry più recente in cima. Mai editare entry passate.
 
 ---
 
+## 11 Feb 2026 (update 2) — Caroline Cadwell: competitor #1
+
+**Competitive Intelligence (MARKET_INTEL.md):**
+- **Caroline Cadwell** aggiunta come competitor più rilevante: Fractional COO/CRO, Barcelona, $1-10M ARR SaaS, started Feb 2025. Yelp/Wallapop/Unpluq (Techstars). 4 exits, ARR 15× in 18 mesi. Network overlap con Sanitha Alam (nostra pipeline).
+- Aggiornata sezione "Pattern Trasversali" con dati da tutti e 3 i competitor. Key insight: Barcelona ha almeno 3 fractional COO nello stesso km². Positioning specifico è non-opzionale.
+- Pattern dominante: tutti usano narrative "chaos → clarity/structure". Il nostro angolo "margine perso negli handoff" è più chirurgico — da testare nelle conversazioni di validazione.
+
+---
+
 ## 11 Feb 2026 — Joko interview + competitive intel
 
 **Jobs:**
