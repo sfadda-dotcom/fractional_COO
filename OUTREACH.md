@@ -108,6 +108,17 @@
 
 ---
 
+## Canali di Distribuzione — Piattaforme Fractional
+
+| Piattaforma | Tipo | Target | Status | Note |
+|-------------|------|--------|--------|------|
+| **Virtual COO** (Kristin Cummings) | Matching service US | Small business owners, 10-20h/sett, contractor | 🟡 Application inviata 11 Feb | US-focused. Rate $100-125/h. Non ICP ma cash flow potential. |
+| Fractional-CSuite.com | Directory EU | Spain: BCN 29%, Madrid 43%. Crescita 35% YoY | ❌ Da valutare | Europe-specific. Da esplorare post-validazione. |
+| Maestro | Matching EU | Berlin→BCN→Amsterdam→Zurich. 10+ yrs exp required | ❌ Da valutare | EU-wide con BCN presence. 40% cost savings claim. |
+| Toptal | Vetted network | Top 3% executives, global | ❌ Da valutare | Alto filtro. Profili EU presenti (es. Leticia Bordoni, Amsterdam). |
+
+---
+
 ## Template Messaggi
 
 ### Per CEO/Founder (generico)
