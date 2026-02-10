@@ -4,28 +4,41 @@ Log cronologico inverso. Entry più recente in cima. Mai editare entry passate.
 
 ---
 
-## 10 Feb 2026
+## 10 Feb 2026 (sera) — Aggiornamento operativo
+
+**Jobs:**
+- Nuitée: interview 1 fatta (9 Feb), andata bene. Waiting next steps. TODO 11 Feb: scrivere all'HR manager.
+
+**Eventi:**
+- SheAI workshop stasera 18:30 — 27 iscritte, zero ICP dirette. Obiettivo ricalibrato su referral.
+- Pre-meeting Lia SheAI: ✅ fatto
+- Juno House form: ✅ inviato. Meeting con Samantha (brand specialist) domani 11 Feb — paired per workshop.
+- Materiali T&B webinar: ✅ fatti. Chiesto email a Nuria.
+
+**Cash flow:**
+- Emma Murray-Jones: non ha accettato la proposta, ha cambiato richieste. Sabrina indecisa se proseguire. DECISIONE PENDENTE.
+- Admotion: follow-up non fatto. AZIONE PENDENTE.
+
+**Domande ancora aperte:**
+- Maria Dobler — coffee fissato?
+- Isabella Villafranca — ha risposto?
+- Marco Ogliengo + Silvia Wang — contattati? (deadline 14 Feb)
+
+---
+
+## 10 Feb 2026 — Repo setup
 
 **Repo setup — struttura iniziale**
 
 - Creata repo GitHub `sfadda-dotcom/fractional_COO`
 - Consolidati dati da 3 fonti precedenti (Status Tracker, Outreach Excel, ICP List) in file separati per dominio
 - File creati: CLAUDE.md, README.md, CONTEXT.md, OUTREACH.md, JOBS.md, EVENTS.md, CASHFLOW.md, CHANGELOG.md
-- Risolte discrepanze:
-  - Pau Ramon e Arnau Navarro marcati come BRUCIATI (erano ancora Priorità Alta nella ICP list)
-  - Oana Iordachescu marcata come SKIP (era ancora Priorità Alta)
-  - Zartis corretto a Declined (era Applied nel vecchio Status Tracker)
-  - Date anno corrette: Keystone, saas.group, AdTech erano 2025 → 2026
-  - Oliver Pou, Jordi Oller, Maria Dobler aggiunti alla pipeline (mancavano dal vecchio Status Tracker o dall'Excel)
-- **8 punti aperti** che richiedono input di Sabrina (elencati in ogni file con ❓)
-
-**Stato validazione:** 3 conversazioni confermate su target 10-15. Gap di 5-7. 10 giorni alla deadline.
+- Aggiunto MARKET_INTEL.md con prima analisi di 10 JD
+- Risolte discrepanze cross-source (contatti bruciati, date anno, status divergenti)
 
 ---
 
 ## 4 Feb 2026
-
-*(Ultimo aggiornamento dei file precedenti)*
 
 - Status Tracker v2 creato
 - ICP Outreach List creata (40 contatti mappati)

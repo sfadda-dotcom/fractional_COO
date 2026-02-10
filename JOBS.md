@@ -1,6 +1,6 @@
 # JOBS — Job Search Tracker
 
-> **Ultimo aggiornamento:** 10 Feb 2026
+> **Ultimo aggiornamento:** 10 Feb 2026 (sera)
 > **Ruolo:** Backup (runway 2 mesi richiede paracadute)
 > **Target:** Head of Ops, Operations Manager, COO — Barcelona o remote EU
 
@@ -10,7 +10,7 @@
 
 | Company | Role | Date Applied | Status | Match % | Location | Remote? | Salary Range | Key Requirements | My Gaps | Next Steps | Notes |
 |---------|------|-------------|--------|---------|----------|---------|-------------|-----------------|---------|------------|-------|
-| Nuitée | Revenue and Operations Manager | 2026-02-04 | Interview Scheduled | 80% | EU Remote (Palma hub) | Yes | €75K (requested) | Lead-to-cash, CRM (HubSpot), forecasting, cross-functional, RevOps | Travel tech specific (minor) | ❓ Interview 10 Feb 12:30 — com'è andata? | RevOps focus. Salary requested: €75K. Prep: ShopFully RevOps story |
+| Nuitée | Revenue and Operations Manager | 2026-02-04 | Interview 1 ✅ Done | 80% | EU Remote (Palma hub) | Yes | €75K (requested) | Lead-to-cash, CRM (HubSpot), forecasting, cross-functional, RevOps | Travel tech specific (minor) | Waiting next steps. **TODO 11 Feb: scrivere all'HR manager** | RevOps focus. Interview 9 Feb con Michaël Rey — andata bene. |
 | Joko | Operations Manager, Business Operations | 2026-02-04 | Interview Scheduled | 85% | Barcelona/Paris (Remote) | Yes | Not specified | Finance Ops, automation, CRM, process optimization, cross-functional, tech-first | Top-tier education requirement (French Grandes Écoles bias) | First interview - data TBD | Strong match. Tech company, profitable, scaling. Finance Ops scope perfect fit. Barcelona office. Completed full application with custom answers. |
 | Vial | Manager - Strategy and Operations | 2026-02-04 | Applied | 75% | Remote (EU/Global) | Yes | $150K-$200K | Strategy, cross-functional, SQL, dashboards, AI workflows, reports to COO | Biotech/clinical trials sector (no direct exp) | Wait for response | High salary. Biotech but sector exp not explicitly required. Reports directly to COO. |
 | saas.group / ScraperAPI | Head of Operations and Revenue | 2026-02-04 | Applied | 80% | Remote (EEA) | Yes | Not specified | Post-merger integration, OKRs, KPIs, B2B SaaS, data-driven, cross-functional | No pure SaaS background | Messaged Ferenc Csonka (hiring team) | Strong match - post-merger integration experience is key differentiator |
