@@ -4,6 +4,27 @@ Log cronologico inverso. Entry più recente in cima. Mai editare entry passate.
 
 ---
 
+## 10 Feb 2026 (notte) — Aggiornamento post-conversazione Emma + risposte pendenti
+
+**Outreach:**
+- Isabella Villafranca: meeting fatto, ma NON è validazione — cercava un mentor per sé. Rimossa dalla pipeline validazione.
+- Marco Ogliengo: contattato. Ha detto "ti aiuto ma non ora". In stand-by.
+- Silvia Wang: ancora non contattata. Deadline 14 Feb.
+- Maria Dobler: coffee ancora non fissato. TODO: scriverle.
+
+**Cash flow:**
+- Admotion: MORTO. Proposti prezzi a dicembre, nessuna risposta, non hanno budget. Drop.
+- Emma Murray-Jones: in negoziazione dal 4 Feb. Ha chiesto custom package (translate + folders + quote comparison). Pricing back-and-forth per 5 giorni. DECISIONE: mandare Professional €900 o Complete €1,500 e chiudere.
+
+**Metriche validazione aggiornate:**
+- Conversazioni confermate: 3 (Oliver 13/2, Jordi 13/2, Sanitha 18/2)
+- Non valide: 1 (Isabella — non ICP)
+- Da fissare: 1 (Maria Dobler)
+- Validate (founder riconosce problema): 0
+- Gap: 6-7+ conversazioni in 10 giorni
+
+---
+
 ## 10 Feb 2026 (sera) — Aggiornamento operativo
 
 **Jobs:**

@@ -9,13 +9,13 @@
 
 | Cliente | Importo Stimato | Status | Ultimo Update | Next Step |
 |---------|----------------|--------|---------------|-----------|
-| Emma Murray-Jones | €1,000-1,500 | ⚠️ A RISCHIO | Call 5 Feb — non ha accettato, ha cambiato richieste | **DECISIONE NECESSARIA:** Quanto lavoro extra richiedono le nuove richieste? Se <5h → fallo per il cash. Se >1 settimana → drop. |
-| Admotion (Joan Pérez Ribot) | €2,400-2,700 | ⚠️ NON CONTATTATO | Follow-up post-fiera mai fatto | **TODO: Mandare follow-up (5 minuti). Worst case: silenzio. Best case: €2,400-2,700.** |
+| Emma Murray-Jones | €900-1,500 | ⏳ IN NEGOZIAZIONE | Proposta inviata (Essential/Professional/Complete). Emma ha chiesto custom. Pricing back-and-forth dal 4 al 9 Feb. | **DECISIONE: Manda Professional €900 o Complete €1,500. Stop iterare.** |
+| Admotion (Joan Pérez Ribot) | €2,400-2,700 | ❌ MORTO | Proposti prezzi a dicembre. Nessuna risposta. Non hanno budget. | Drop. Non investire altro tempo. |
 | Reformas | €250 | ✅ Fatturato e chiuso | — | — |
 
-**Totale potenziale residui:** €3,650-4,450
+**Totale potenziale residui:** €1,150-1,750 (solo Emma, se chiude)
 **Totale confermato:** €250
-**Totale a rischio per inazione:** €3,400-4,200
+**Perso/morto:** €2,400-2,700 (Admotion)
 
 ## Nuove Opportunità
 
@@ -30,7 +30,7 @@
 | Voce | Importo |
 |------|---------|
 | Confermato in cassa | €250 |
-| A rischio (Emma — richieste cambiate) | €1,000-1,500 |
-| Non perseguito (Admotion — follow-up non fatto) | €2,400-2,700 |
+| In negoziazione (Emma) | €900-1,500 |
+| Morto (Admotion) | ~~€2,400-2,700~~ €0 |
 | Nuove opportunità | TBD |
 | Burn rate mensile stimato | ❓ Da definire |
