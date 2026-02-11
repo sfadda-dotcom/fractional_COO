@@ -51,9 +51,9 @@
 | Nome | Azienda | Settore | Location | Contattato | Note |
 |------|---------|---------|----------|------------|------|
 | Marco Ogliengo | Jet HR | HR Tech | Milan | ✅ Scritto | Ha detto che aiuta ma non ora. In stand-by. |
-| Silvia Wang | Serenis | Mental Health | Italy | ❌ No | 37K followers, 168 mutual connections. TODO: contattare. |
+| Silvia Wang | Serenis | Mental Health | Italy | ❌ No | 37K followers, 168 mutual connections. TODO: contattare, moglie di Marco Ogliengo. |
 
-⚠️ **Marco in stand-by ("non ora"). Silvia non ancora contattata. Deadline 14 Feb.**
+⚠️ **Marco in stand-by ("non ora"). Silvia non ancora contattata, sua moglie. Deadline 14 Feb.**
 
 ### 🟠 Priorità Media — Barcelona
 

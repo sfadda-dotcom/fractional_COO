@@ -58,6 +58,8 @@ n8n, API integration, Python, Claude AI, SQL — sufficienti per prototipare, no
 - Lizzie (VC Barcelona)
 - SheAI community (1000+ donne)
 - Tacones y Bambas network
+- Juno House
+- Fayron, piattaforma di networking
 - Intern part-time: Simone Seward (8h/settimana, business student — ricerca e admin, NO outreach/copy)
 
 ## Lezione WorkLess (Ago 2025 - Gen 2026)
