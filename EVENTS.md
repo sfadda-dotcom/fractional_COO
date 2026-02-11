@@ -1,6 +1,6 @@
 # EVENTS — Calendario Eventi
 
-> **Ultimo aggiornamento:** 10 Feb 2026 (sera)
+> **Ultimo aggiornamento:** 11 Feb 2026
 
 ---
 
@@ -8,9 +8,8 @@
 
 | Data | Evento | Tipo | Obiettivo | Prep | Status |
 |------|--------|------|-----------|------|--------|
-| **10 Feb 18:30** | **SheAI Workshop** | Workshop | Referral: "conosci un founder che scala con problemi ops?" | Pre-meeting Lia ✅ fatto | STASERA — 27 iscritte, zero ICP diretto |
-| **11 Feb** | **Fayron Networking @ Juno House** | Networking | Nuovi contatti ICP | — | Domani |
-| **11 Feb** | **Meeting Samantha (Juno House)** | 1:1 | Workshop planning — lei fa brand specialist | — | Domani — paired per workshop |
+| **11 Feb** | **Fayron Networking @ Juno House** | Networking | Nuovi contatti ICP | — | OGGI |
+| **11 Feb** | **Meeting Samantha (Juno House)** | 1:1 | Workshop planning — lei fa brand specialist | — | OGGI |
 | 13 Feb | Coffee Oliver Pou | 1:1 | Validazione | Prep domande discovery | ✅ Confermato 09:00 |
 | 13 Feb | Coffee Jordi Oller | 1:1 | Validazione | Prep domande discovery | ✅ Confermato 09:00 |
 | 18 Feb | Coffee Sanitha Alam | 1:1 | Peer exchange fractional | Prep domande modello fractional | ✅ Confermato 16:00 |
@@ -26,6 +25,7 @@
 | 6 Feb | Juno House form submission | ✅ Inviato |
 | 6 Feb | Pre-meeting Lia (SheAI) | ✅ Fatto |
 | 9 Feb | Materiali T&B webinar | ✅ Fatti, chiesto email Nuria |
+| 10 Feb | SheAI Workshop | ✅ Fatto. 7 LinkedIn adds, 0 ICP diretti, 1 peer (Carla Almaguer). |
 
 ---
 

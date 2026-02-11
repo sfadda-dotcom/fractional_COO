@@ -1,6 +1,6 @@
 # OUTREACH — Pipeline Validazione
 
-> **Ultimo aggiornamento:** 10 Feb 2026 (notte) | **Deadline:** 20 Feb 2026
+> **Ultimo aggiornamento:** 11 Feb 2026 | **Deadline:** 20 Feb 2026
 > **Obiettivo:** 10-15 conversazioni con founder ICP | **Go/No-Go:** 3+ riconoscono il problema
 
 ---
@@ -9,12 +9,12 @@
 
 | Metrica | Valore |
 |---------|--------|
-| Conversazioni confermate | 3 |
-| Da fissare | 1 (Maria Dobler — da scrivere) |
+| Conversazioni confermate | 3 (Oliver 13/2, Jordi 13/2, Sanitha 18/2) |
+| Da fissare | 1 (Maria Dobler — scritta 11 Feb, in attesa risposta) |
 | Non valide (non ICP) | 1 (Isabella — cercava mentor) |
 | Target | 10-15 |
 | Gap | 6-7+ |
-| Founder che riconoscono problema | 0 (nessuna call fatta ancora) |
+| Founder che riconoscono problema | 0 (prima call: 13 Feb) |
 | Soglia Go/No-Go | 3 |
 
 ---
@@ -26,7 +26,7 @@
 | 1 | Oliver Pou | Futurae / Health Tech Forward | 13 Feb 09:00 | ✅ Confermato | — | Via Fayron |
 | 2 | Jordi Oller | Techies Network / Nexia | 13 Feb 09:00 | ✅ Confermato | — | Via Fayron |
 | 3 | Sanitha Alam | Planteka | 18 Feb 16:00 | ✅ Confermato | — | Coffee. Usa già fractional CSO model |
-| 4 | Maria Dobler | Startup TBD | Da fissare | 🟡 Da scrivere | — | INBOUND 5 Feb. Ex-Amazon 12y, angel investor. TODO: scriverle |
+| 4 | Maria Dobler | Startup TBD | Da fissare | 🟡 Scritta 11 Feb — in attesa | — | INBOUND 5 Feb. Ex-Amazon 12y, angel investor. Coffee da fissare. |
 | ~~5~~ | ~~Isabella Villafranca~~ | ~~YC startup~~ | ~~Fatto~~ | ~~❌ Non ICP~~ | — | Meeting fatto. Cercava un mentor per sé, non ha il problema ops. Non conta per validazione. |
 
 ---

@@ -1,6 +1,6 @@
 # JOBS — Job Search Tracker
 
-> **Ultimo aggiornamento:** 10 Feb 2026 (sera)
+> **Ultimo aggiornamento:** 11 Feb 2026
 > **Ruolo:** Backup (runway 2 mesi richiede paracadute)
 > **Target:** Head of Ops, Operations Manager, COO — Barcelona o remote EU
 

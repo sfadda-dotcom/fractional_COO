@@ -1,6 +1,6 @@
 # MARKET INTEL — Pattern dal mercato
 
-> **Ultimo aggiornamento:** 10 Feb 2026
+> **Ultimo aggiornamento:** 11 Feb 2026
 > **Scopo:** Estrarre pattern, linguaggio e pain points dalle JD e dalla ricerca per costruire un'offerta che parla il linguaggio dei clienti.
 
 ---

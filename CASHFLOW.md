@@ -1,6 +1,6 @@
 # CASHFLOW — Tracking Entrate
 
-> **Ultimo aggiornamento:** 10 Feb 2026 (sera)
+> **Ultimo aggiornamento:** 11 Feb 2026
 > **Runway:** ~2 mesi (da inizio Feb 2026)
 
 ---
