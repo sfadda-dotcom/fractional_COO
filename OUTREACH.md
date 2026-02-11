@@ -105,7 +105,7 @@
 
 | Nome | Azienda | Data | Note | Status |
 |------|---------|------|------|--------|
-| Maria Dobler | Startup TBD | 5 Feb | Ex-Amazon 12y, angel investor. Coffee da fissare | 🟡 In corso |
+| Maria Dobler | Startup TBD | 5 Feb | Ex-Amazon 12y, angel investor. **Scritta 11 Feb** — coffee da fissare | 🟡 In attesa risposta |
 
 ---
 
