@@ -10,8 +10,8 @@
 |------|--------|------|-----------|------|--------|
 | **11 Feb** | **Fayron Networking @ Juno House** | Networking | Nuovi contatti ICP | — | OGGI |
 | **11 Feb** | **Meeting Samantha (Juno House)** | 1:1 | Workshop planning — lei fa brand specialist | — | OGGI |
-| 13 Feb | Coffee Oliver Pou | 1:1 | Validazione | Prep domande discovery | ✅ Confermato 09:00 |
-| 13 Feb | Coffee Jordi Oller | 1:1 | Validazione | Prep domande discovery | ✅ Confermato 09:00 |
+| 12 Feb | Coffee Oliver Pou | 1:1 | Validazione | Prep domande discovery | ✅ Confermato 09:00 |
+| 17 Feb | Coffee Jordi Oller | 1:1 | Validazione | Prep domande discovery | ✅ Confermato 17:00 |
 | 18 Feb | Coffee Sanitha Alam | 1:1 | Peer exchange fractional | Prep domande modello fractional | ✅ Confermato 16:00 |
 | 23 Feb | Webinar Tacones y Bambas | Webinar | Visibilità + lead | ✅ Materiali fatti. Chiesto email a Nuria. | In prep |
 | 2-5 Mar | 4YFN Barcelona | Conference | Pipeline post-validazione | — | |
@@ -56,3 +56,9 @@
   - Artem Rodichev — CSO Lupon Media. Non founder. Network generico.
 - Discovery call potenziali: 1 (Anna Adolfo — da qualificare)
 - Coffee: Sílvia Ariza — da fissare
+
+
+### Fayron Networking — 11 Feb
+- Persone incontrate: —
+- Discovery call ottenute: —
+- Note: —
