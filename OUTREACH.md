@@ -91,6 +91,7 @@
 
 | Nome | Azienda | Ruolo | Note |
 |------|---------|-------|------|
+| Carla Almaguer | Freelance | Fractional COO/Chief of Staff, impact startups | PEER — stesso mestiere. MBA ESADE. Coffee proposto 11 Feb. Via SheAI workshop. |
 | Maja Završnik | SheAI | Co-founder | Community |
 | Stephany Oliveros | SheAI | Co-founder | Proposta consulting/workshop |
 | Alessandra Marsaglia | Candam Tech | Board | — |

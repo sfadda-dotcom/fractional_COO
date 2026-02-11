@@ -177,6 +177,25 @@ Profili di practitioner che fanno (o dicono di fare) quello che vuoi fare tu. No
 - **Opportunità**: peer contact, non solo competitor. Potrebbe referrare quando il caso è più ops che revenue. Ma questo funziona solo se hai un positioning chiaro e diverso.
 - **Rischio**: se ti posizioni troppo ampia ("fractional COO per startup"), sei in competizione diretta con qualcuno che ha un track record più visibile. Se ti posizioni specifica ("trovo dove il margine si perde tra i dipartimenti"), occupi uno spazio che lei non sta occupando.
 
+### Carla Almaguer — Fractional COO / Chief of Staff (Barcelona)
+
+| Campo | Dettaglio |
+|-------|----------|
+| Positioning | "Operations & Growth — Accelerating Impact Startups" |
+| Location | **Barcelona** |
+| Background | Industrial Engineer + MBA ESADE. 10+ anni |
+| Target | Impact startups: CleanTech, HealthTech, Supply chain, Manufacturing |
+| Services | COO/Chief of Staff: business planning, GTM, customer ops, process set-up, OKRs, cross-functional alignment |
+| Positioning language | "turn ambition into execution", "identify execution challenges", "implement the systems & processes to drive results" |
+| Network | Women in Business Club ESADE. SheAI community. |
+| Fonte | Incontrata SheAI workshop 10 Feb. Ha aggiunto su LinkedIn 11 Feb. |
+
+**Analisi:**
+- **Quarto fractional COO/ops a Barcelona** (dopo Cadwell, Bawden, te).
+- **Differenziazione**: lei è verticale su impact/sustainability. Tu sei orizzontale con angolo P&L/finance.
+- **Opportunità come peer**: stesso mestiere, stesse sfide, possibili referral reciproci. Coffee proposto.
+- **Nota**: il mercato BCN per fractional COO sta diventando affollato. 4 practitioner noti nello stesso km².
+
 ### Pattern Trasversali dai Competitor
 
 | Pattern | Evidenza | Implicazione per te |
@@ -187,7 +206,7 @@ Profili di practitioner che fanno (o dicono di fare) quello che vuoi fare tu. No
 | Nessuno pricing pubblico | 0/3 competitor pubblicano prezzi | Standard nel fractional. I tuoi €2.5-4K diagnostic + €4-6K/mo retainer sono nella fascia giusta per EU. |
 | Content + community come acquisition | Cadwell: RevOps events at Itnig, 2.7K LinkedIn followers. Barretta: articoli educativi | Dopo validazione, content è il canale naturale. Ma NON ora — prima valida, poi costruisci. |
 | Track record quantificato come leva | Cadwell: "ARR 15×", "4 exits". Barretta: "130→200+ agents", "$138M deal" | Tu hai: "team 1→17", "P&L ownership", "20+ hire/fire". Numeri comparabili. Usali. |
-| Barcelona è un mercato piccolo | Cadwell + OLYRA + te = almeno 3 fractional COO nello stesso km² | Il network si sovrappone (vedi Sanitha Alam). Positioning chiaro e diverso è non-opzionale. |
+| Barcelona è un mercato affollato | Cadwell + OLYRA + Almaguer + te = **4 fractional COO** nello stesso km² | Il network si sovrappone (Sanitha Alam, SheAI, ESADE). Positioning chiaro e diverso è non-opzionale. Carla è impact-verticale, Caroline è CRO-leaning, Brian è generalist. Il tuo spazio: P&L diagnostic cross-functional. |
 
 ---
 

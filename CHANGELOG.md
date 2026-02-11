@@ -4,6 +4,19 @@ Log cronologico inverso. Entry più recente in cima. Mai editare entry passate.
 
 ---
 
+## 11 Feb 2026 (update 4) — SheAI workshop follow-up + Carla Almaguer
+
+**Events (SheAI 10 Feb):**
+- 7 LinkedIn adds post-workshop. 3 profili valutati.
+- **Carla Almaguer**: PEER. Fractional COO/Chief of Staff per impact startups, MBA ESADE, Barcelona. Quarto fractional COO noto a BCN. Coffee proposto.
+- Dorothy Thomas, Cristina Esteve: networking generico, non ICP.
+- 0 referral ICP diretti dal workshop.
+
+**Competitive Landscape:**
+- Carla Almaguer aggiunta in MARKET_INTEL.md. BCN ora ha 4 fractional COO noti: Cadwell (CRO-leaning), Bawden (generalist), Almaguer (impact-verticale), Fadda (P&L diagnostic).
+
+---
+
 ## 11 Feb 2026 (update 3) — Full competitive analysis + pricing benchmark
 
 **Competitive Analysis:**
