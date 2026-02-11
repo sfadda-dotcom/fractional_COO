@@ -41,7 +41,10 @@
   - **Carla Almaguer** ⭐ — PEER. Fractional COO/Chief of Staff per impact startups (CleanTech, HealthTech). Ing. Industriale + MBA ESADE. Barcelona. Fa lo stesso mestiere. Proposto coffee per peer exchange.
   - Dorothy Thomas — Strategic Account Manager, freelance marketing/PR. Ex-Flipkart. Non ICP. Networking generico.
   - Cristina Esteve — Deep Tech Marketing Manager. 15 anni. Non ICP. Ha apprezzato il workshop automazioni.
-  - *(4 profili rimanenti da valutare)*
+  - Francesca Bruno — Growth Manager, SDR/Sales. Non ICP. Potenziale referral di 2° grado ma basso ROI.
+  - Petra Bilikova — Scrum Master, L&D. Zero rilevanza.
+  - Tomar Beh — AI & Cultural Strategist, nonprofits UK. Zero rilevanza.
+  - Anisha Sawant — Co-founder, ex-COO tech startups, ora nonprofits Oslo. Semi-interessante come peer ma basso priority.
 - Referral ICP ottenuti: 0
 - Note: workshop su automazioni, non sul fractional COO. Le connessioni sono per il contenuto AI, non per il servizio. Carla è l'unico contatto strategico — come peer, non come cliente.
 
