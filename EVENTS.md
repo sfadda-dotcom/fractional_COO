@@ -49,6 +49,10 @@
 - Note: workshop su automazioni, non sul fractional COO. Le connessioni sono per il contenuto AI, non per il servizio. Carla è l'unico contatto strategico — come peer, non come cliente.
 
 ### Fayron Networking — 11 Feb
-- Persone incontrate: —
-- Discovery call ottenute: —
-- Note: —
+- **Connessioni: 3**
+- Profili valutati:
+  - **Sílvia Ariza** ⭐ — Founder & CEO Eina Data. Data strategy, ex-Vueling/Uber/CaixaBank. Micro/solo ma founder BCN. Ha proposto caffè/vino proattivamente (+34 615 554 462). Non ICP ma network utile + potenziali referral.
+  - **Anna Adolfo** — Founder ADNNERS (AI & innovation agency, ex-Gucci Digital Director). Multi-entity (ADN Academy + OTRO.s). **Potenziale ICP** da qualificare: team size? Revenue? Growth plan?
+  - Artem Rodichev — CSO Lupon Media. Non founder. Network generico.
+- Discovery call potenziali: 1 (Anna Adolfo — da qualificare)
+- Coffee: Sílvia Ariza — da fissare

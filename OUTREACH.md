@@ -87,10 +87,19 @@
 | Wayne Simpson | nocodecreative.io | AI/Automation | Scotland | No |
 | Réka Bors | uPledge | Fintech/Web3 | Barcelona | No |
 
+### 🔵 Da Qualificare — Fayron 11 Feb
+
+| Nome | Azienda | Ruolo | Potenziale ICP? | Next Step |
+|------|---------|-------|-----------------|-----------|
+| **Anna Adolfo** | ADNNERS (AI agency, ex-Gucci) | Founder | ⚠️ Da qualificare — multi-entity, team size/revenue sconosciuti | Chiedere team size e growth plan |
+| Sílvia Ariza | Eina Data | Founder & CEO | ❌ Micro/solo | Coffee proposto da lei. Network, non validazione. |
+| Artem Rodichev | Lupon Media | CSO | ❌ Non founder | Network generico |
+
 ### 🟣 Network / Referral (non ICP diretto)
 
 | Nome | Azienda | Ruolo | Note |
 |------|---------|-------|------|
+| Sílvia Ariza | Eina Data | Founder & CEO, data strategy | Via Fayron 11 Feb. Ha proposto caffè. Ex-Vueling/Uber/CaixaBank. |
 | Carla Almaguer | Freelance | Fractional COO/Chief of Staff, impact startups | PEER — stesso mestiere. MBA ESADE. Coffee proposto 11 Feb. Via SheAI workshop. |
 | Maja Završnik | SheAI | Co-founder | Community |
 | Stephany Oliveros | SheAI | Co-founder | Proposta consulting/workshop |
