@@ -17,19 +17,34 @@ Job search attivo in parallelo come backup (runway 2 mesi).
 
 ## Struttura repo
 
+### Dati operativi (Excel)
+
+| File | Sheet | Cosa contiene |
+|------|-------|---------------|
+| `TRACKER.xlsx` | **Outreach** | Pipeline validazione: tutti i contatti, status, date conversazioni, "riconosce problema?" |
+| `TRACKER.xlsx` | **Jobs** | Job applications: company, match %, status, next steps |
+| `TRACKER.xlsx` | **Events** | Calendario eventi, prep, esito, persone incontrate, follow-up |
+| `TRACKER.xlsx` | **Cashflow** | Entrate residue, nuove opportunità, riepilogo |
+
+### Documenti narrativi (Markdown)
+
 | File | Cosa contiene | Ownership |
 |------|--------------|-----------|
 | `CONTEXT.md` | Background, ICP, pricing, positioning | Statico — cambia solo se cambia strategia |
-| `OUTREACH.md` | Pipeline validazione + tutti i contatti outreach | Unica fonte per contatti e conversazioni |
-| `JOBS.md` | Job applications e status | Unica fonte per job search |
-| `EVENTS.md` | Eventi, prep, follow-up | Unica fonte per eventi |
-| `CASHFLOW.md` | Cash flow residui e nuove opportunità | Unica fonte per soldi |
-| `MARKET_INTEL.md` | Pattern, linguaggio, pain points estratti da JD e ricerca | Si popola automaticamente — mai editare manualmente |
+| `MARKET_INTEL.md` | Pattern, linguaggio, pain points, competitive landscape (da JD e ricerca) | Si popola automaticamente — mai editare manualmente |
 | `CHANGELOG.md` | Log cronologico inverso di cosa succede | Append-only, mai editare entry passate |
+| `competitive_analysis.html` | Analisi competitiva visuale | Riferimento |
+
+### Altro
+
+| Cartella | Contenuto |
+|----------|-----------|
+| `assets/` | CV PDF |
+| `Archivio/` | File deprecati dalla migrazione 12 Feb 2026 (markdown files sostituiti da TRACKER.xlsx) |
 
 ### Regola fondamentale
 
-Ogni dato vive in **un solo file**. Se un contatto è in OUTREACH.md, non va duplicato in EVENTS.md. Se un'opportunità di cash è in CASHFLOW.md, non va duplicata altrove. Riferimenti incrociati ok, dati duplicati no.
+Ogni dato vive in **un solo posto**. I contatti vivono nella sheet Outreach. I job nella sheet Jobs. Gli eventi nella sheet Events. Il cash nella sheet Cashflow. L'intelligence aggregata in MARKET_INTEL.md. Zero duplicazione.
 
 ## Come aggiornare
 
@@ -39,22 +54,22 @@ Sabrina scriverà in formato libero, tipo:
 - "Emma ha confermato €1,200"
 
 Tu devi:
-1. Identificare quale file aggiornare
-2. Aggiornare il file con i dati nuovi
+1. Identificare quale sheet/file aggiornare (TRACKER.xlsx per dati operativi, MARKET_INTEL.md per intelligence)
+2. Aggiornare la sheet o il file con i dati nuovi (per Excel: usa openpyxl per leggere e modificare)
 3. Aggiungere una entry nel CHANGELOG.md con data e cosa è cambiato
 4. Se ci sono deadline scadute o azioni urgenti, segnalarle
 
 ## Come generare il recap giornaliero
 
 Quando Sabrina chiede "recap", "a che punto siamo", "status", o simili:
-1. Leggi tutti i file di tracking (OUTREACH, JOBS, EVENTS, CASHFLOW)
+1. Leggi TRACKER.xlsx (tutte le sheet) + MARKET_INTEL.md + CHANGELOG.md
 2. Genera un riepilogo con: cosa è successo oggi/ieri, prossime deadline, azioni urgenti, metriche validazione
 3. **NON creare un file** — il recap è output conversazionale, non un documento
 
 ## Quando Sabrina condivide una JD
 
 Doppio output:
-1. **JOBS.md** — Analisi match: match %, key requirements, gaps, se applicare o no, next step
+1. **TRACKER.xlsx → sheet Jobs** — Analisi match: match %, key requirements, gaps, se applicare o no, next step
 2. **MARKET_INTEL.md** — Estrai e aggiorna:
    - Linguaggio usato (aggiungi frequenza nella tabella Coliseum Keywords)
    - Pain points (aggiungi alla tabella pattern)

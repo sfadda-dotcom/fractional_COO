@@ -1,6 +1,6 @@
 # MARKET INTEL — Pattern dal mercato
 
-> **Ultimo aggiornamento:** 11 Feb 2026
+> **Ultimo aggiornamento:** 12 Feb 2026
 > **Scopo:** Estrarre pattern, linguaggio e pain points dalle JD e dalla ricerca per costruire un'offerta che parla il linguaggio dei clienti.
 
 ---
@@ -22,25 +22,39 @@ Parole e frasi esatte usate nelle JD e nelle conversazioni per descrivere il pro
 
 | Termine / Frase | Frequenza | Fonte |
 |-----------------|-----------|-------|
-| cross-functional | 7/10 JD | JD: Zartis, Prosolbia, Joko, Nuitée, Vial, saas.group, AdTech |
-| process optimization | 4/10 | JD: Joko, Tu TrabajoCR, Zartis, Keystone |
-| KPIs / OKRs | 4/10 | JD: Tu TrabajoCR, saas.group, AdTech, Vial |
-| P&L ownership | 3/10 | JD: Arnold Ash, AdTech, Prosolbia |
-| data-driven | 3/10 | JD: saas.group, Vial, Joko |
-| scaling / scale-up | 3/10 | JD: Prosolbia, AdTech, Keystone |
-| post-merger integration | 1/10 | JD: saas.group |
-| lead-to-cash | 1/10 | JD: Nuitée |
-| forecasting | 1/10 | JD: Nuitée |
-| systems thinking | 1/10 | JD: Zartis |
-| visibilidad márgenes | 1/10 | JD: Prosolbia |
-| alineación cross-funcional | 1/10 | JD: Prosolbia (ES) |
+| KPIs / OKRs / Dashboards | 15/18 | JD: Tu TrabajoCR, saas.group, AdTech, Vial, HBX, Panda Drum, EcomTraffic, Women Doing Well, Nuitée, Joko, Ashby, KCM, Knotty Ones, Speedy.io, Preply |
+| cross-functional alignment | 13/18 | JD: Zartis, Prosolbia, Joko, Nuitée, Vial, saas.group, AdTech, Ashby, HBX, Women Doing Well, Knotty Ones, Speedy.io, Preply |
+| scalable systems / infrastructure | 11/18 | JD: Prosolbia, AdTech, Keystone, Panda Drum, EcomTraffic, Women Doing Well, HBX, KCM, Joko, saas.group, Speedy.io |
+| process improvement / SOPs | 10/18 | JD: Joko, Tu TrabajoCR, Zartis, Keystone, Panda Drum, EcomTraffic, Women Doing Well, HBX, Ashby, Knotty Ones |
+| team leadership (lean teams) | 10/18 | JD: Panda Drum, EcomTraffic, AdTech, Women Doing Well, Tu TrabajoCR, Joko, Arnold Ash, KCM, Knotty Ones, Speedy.io |
+| CEO/Executive partnership | 10/18 | JD: saas.group, Vial, AdTech, HBX, Women Doing Well, Prosolbia, Keystone, Knotty Ones, Speedy.io, Preply |
+| financial acumen (budgeting, forecasting, margins) | 9/18 | JD: Nuitée, Panda Drum, KCM, Women Doing Well, saas.group, AdTech, Arnold Ash, Prosolbia, Speedy.io |
+| remote/async | 6/18 | JD: saas.group, Vial, Keystone, Tu TrabajoCR, Arnold Ash, AdTech |
+| data-driven | 6/18 | JD: saas.group, Vial, Joko, Knotty Ones, Speedy.io, Preply |
+| post-merger / transformation | 5/18 | JD: saas.group, HBX, KCM, Prosolbia, Ashby |
+| turn strategy into execution | 4/18 | JD: Preply, saas.group, Speedy.io, HBX |
+| P&L ownership | 3/18 | JD: Arnold Ash, AdTech, Prosolbia |
+| lead-to-cash | 1/18 | JD: Nuitée |
+| systems thinking | 1/18 | JD: Zartis |
+| visibilidad márgenes | 1/18 | JD: Prosolbia |
+| integrator mindset (EOS) | 1/18 | JD: Women Doing Well |
+| influence without direct authority | 1/18 | JD: Preply — **descrive esattamente il fractional COO** |
+| single source of truth (per performance) | 1/18 | JD: Preply |
+| execution bottlenecks / misalignments | 1/18 | JD: Preply — i sintomi del problema che risolvi |
 
 ### Osservazioni
 
-- **"Cross-functional"** è il termine dominante — 7 su 10 JD lo usano. Questo è probabilmente il Coliseum Keyword #1.
+- **"KPIs / OKRs / Dashboards"** è il termine dominante — 15 su 18 JD (83%). Il mercato pensa in metriche.
+- **"Cross-functional"** al secondo posto (13/18, 72%). Conferma che è il Coliseum Keyword #1 per il positioning.
+- **"Scalable systems"** (11/18) e **"Process improvement/SOPs"** (10/18) quasi pari — il mercato vuole struttura, non consulenza astratta.
+- **"Turn strategy into execution"** (4/18) — pattern emergente. Preply, saas.group, Speedy.io, HBX. Questo è IL pain point: founder ha strategia, ma non succede niente.
+- **"Influence without direct authority"** (Preply) è la descrizione perfetta del fractional COO. Da usare nelle conversazioni di validazione: "il mio ruolo è far muovere i team senza avere autorità diretta su di loro."
+- **"Execution bottlenecks / misalignments"** (Preply) — i sintomi esatti del problema che risolvi. Non è solo "i dipartimenti non comunicano". È "ogni iniziativa strategica si blocca perché nessuno coordina cross-functional."
 - **Nessuna JD dice "operational diagnostic"** — è il tuo termine, non il loro. Potenziale disallineamento nel positioning.
-- **"P&L ownership"** appare solo nei ruoli C-level. Nei ruoli sotto COO, parlano di "KPIs" e "data-driven".
+- **"P&L ownership"** appare solo nei ruoli C-level (3/18). Nei ruoli sotto COO, parlano di "KPIs" e "data-driven".
+- **"CEO/Executive partnership"** (10/18, 56%) — il ruolo è percepito come braccio destro del CEO, non funzione indipendente.
 - Il linguaggio spagnolo (Prosolbia) usa "visibilidad de márgenes" e "alineación cross-funcional" — utile per il mercato iberico.
+- **Preply è ICP perfetto**: Barcelona, Series D ($150M), marketplace in expansion. Non per applicare a questa JD (IC senior, non C-level), ma come esempio di *chi* ha questo problema e *come* lo descrive.
 
 ---
 
@@ -62,11 +76,17 @@ Pattern di problemi che le aziende stanno cercando di risolvere attraverso quest
 
 | Skill | Frequenza | Note |
 |-------|-----------|------|
-| CRM (HubSpot, Salesforce) | 3/10 | Nuitée, Joko, saas.group |
-| SQL / dashboards | 2/10 | Vial, Joko |
-| Automation (Zapier/Make/n8n) | 2/10 | Zartis, Joko |
-| AI workflows | 1/10 | Vial — segnale emergente |
-| Power BI | 1/10 | Zartis |
+| CRM (HubSpot, Salesforce, Dynamics) | 5/15 | Nuitée, Joko, saas.group, Women Doing Well, Ashby |
+| SQL / dashboards / BI (Tableau, Looker Studio) | 4/15 | Vial, Joko, HBX, Panda Drum |
+| Automation (Zapier/Make/n8n) | 3/15 | Zartis, Joko, Panda Drum |
+| PM tools (ClickUp, Notion, Asana) | 3/15 | EcomTraffic, Panda Drum, HBX |
+| AI workflows | 1/15 | Vial — segnale emergente |
+| E-commerce (Shopify, Amazon) | 1/15 | Panda Drum |
+| ERP (SAP) | 1/15 | KCM |
+
+### Tools Pattern
+
+Il mercato chiede CRM + dashboarding + automation come combo standard. La tua competenza n8n/API/SQL copre 3 su 3. Differenziatore tecnico rispetto a COO "pure strategy".
 
 ---
 
@@ -76,7 +96,11 @@ Pattern di problemi che le aziende stanno cercando di risolvere attraverso quest
 |-------|-----------|--------|
 | €35K | Junior ops / exploitation | Zartis (declined — conferma che è sottopagato) |
 | €60-80K | Mid-senior ops manager | Nuitée (€75K richiesti) |
+| £70-85K (~€82-100K) | Implementation specialist | Ashby |
+| €90-110K | Head of Ops & Revenue | saas.group |
+| $84-95K (~€77-87K) | Sr Director Ops | Women Doing Well |
 | $150-200K | Strategy & Ops, reports to COO | Vial |
+| €200-250K | Director Ops (con hard filter settoriale) | KCM Data Centers |
 | Non specificato (C-level) | COO | AdTech/Gaming, Arnold Ash |
 
 ### Implicazione per pricing Fractional COO
@@ -92,6 +116,20 @@ Un COO full-time costa €80-150K+/anno. Il tuo retainer a €4-6K/mese (€48-7
 
 ---
 
+## Hard Filters Settoriali (da JD)
+
+JD dove l'esperienza settoriale è un requisito bloccante — utile per capire dove NON applicare.
+
+| JD | Hard Filter |
+|----|-------------|
+| RateHawk | Travel industry REQUIRED |
+| Prosolbia | Legal services background (rejected per questo) |
+| KCM | Data centre experience ESSENTIAL |
+| Panda Drum | DTC e-commerce + 3PL/China |
+| Nuitée | RevOps + preferenza Travel/API-first |
+
+---
+
 ## Segmenti Affamati (da monitorare)
 
 Segmenti dove il bisogno sembra più acuto basato sui pattern.
@@ -99,6 +137,7 @@ Segmenti dove il bisogno sembra più acuto basato sui pattern.
 | Segmento | Segnale | Azione |
 |----------|---------|--------|
 | Post-seed scaling (30-100 persone) | Keystone, Prosolbia, JD pattern | Core ICP — validare nelle conversazioni |
+| **Marketplaces in expansion (nuovi verticali/geografie)** | **Preply (Series D, BCN), ProntoPro (tuo ex), Wallapop** | **Segmento con pain point cross-functional strutturale.** Ogni nuova espansione richiede coordinamento Product/Supply/Marketing/Data/Ops. Validare con Oliver/Jordi se riconoscono questo pattern. |
 | Post-M&A integration | saas.group | Nicchia di alto valore, verificare se c'è volume |
 | RevOps gap | Nuitée | Intersezione vendite-operations, vicino al tuo positioning |
 | Tech company + Finance Ops | Joko | Finance background + ops = differenziatore |

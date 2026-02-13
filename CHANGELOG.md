@@ -4,6 +4,99 @@ Log cronologico inverso. Entry più recente in cima. Mai editare entry passate.
 
 ---
 
+## 12 Feb 2026 (update 4) — MARKET_INTEL: Coliseum Keywords aggiornate da 15 a 18 JD
+
+**MARKET_INTEL.md:**
+- Aggiornate frequenze Coliseum Keywords da /15 a /18 JD totali analizzati
+- Aggiunti dati da Knotty Ones, Speedy.io, e Preply (3 nuove JD)
+- KPIs/OKRs: 12/15 → 15/18 (83%)
+- Cross-functional alignment: 10/15 → 13/18 (72%)
+- CEO/Executive partnership: 7/15 → 10/18
+- Team leadership: 8/15 → 10/18
+- Data-driven: 3/15 → 6/18 (salto significativo)
+- Financial acumen: 8/15 → 9/18
+- Aggiunte 4 nuove keyword:
+  - "Turn strategy into execution" (4/18) — pattern emergente, IL pain point
+  - "Influence without direct authority" (1/18) — descrive esattamente il fractional COO
+  - "Single source of truth" (1/18)
+  - "Execution bottlenecks / misalignments" (1/18) — i sintomi del problema
+- Aggiunto segmento "Marketplaces in expansion" (Preply, ProntoPro, Wallapop) — pain point cross-functional strutturale
+- Preply (Sr Expansion Strategy Ops Manager, BCN): NON applicabile (IC senior, non C-level). Analizzata per market intel. Marketplace Series D $150M — ICP perfetto. Linguaggio estratto conferma: founder ha strategia ma non succede niente.
+
+---
+
+## 12 Feb 2026 (update 3) — Date corrette + Zartis interview
+
+**Date corrette (confermate da Sabrina):**
+- Oliver Pou: **16 Feb 09:00** (era in conflitto 12/13 Feb)
+- Jordi Oller: **17 Feb 17:00** (era in conflitto 13/17 Feb)
+- Alert arancioni rimossi da Outreach e Events
+
+**Jobs:**
+- Zartis: status da "❌ Declined" a "🔵 Interview Scheduled" — 17 Feb 11:30. Recruiter: gabriella.hutanu@zartis.com. Ricontattata dopo decline iniziale per salary €35K. Da verificare se condizioni cambiate.
+
+**Events:**
+- Aggiunta interview Zartis 17 Feb 11:30
+
+---
+
+## 12 Feb 2026 (update 2) — Consolidamento Jobs + Competitors sheet
+
+**Jobs sheet:**
+- Aggiunta colonna "Type" (Employment / Fractional Platform) come prima colonna
+- Piattaforme fractional (Virtual COO, Fractional-CSuite, Maestro, Toptal) spostate qui come righe con Type = "Fractional Platform"
+- Rimosse da Outreach (sezione piattaforme in fondo) e Cashflow (dove Virtual COO era duplicata)
+- Ora tutto ciò che è "application/candidatura" (job o platform) vive in Jobs. Filtrabile per Type.
+
+**Competitors sheet (nuovo):**
+- 4 competitor profilati: Caroline Cadwell (⚠️ ALTO), Brian Bawden/OLYRA (🟡 MEDIO), Carla Almaguer (🟢 BASSO), Guy Barretta (🟢 benchmark)
+- Colonne: nome, location, target, positioning, differenziazione vs Sabrina, background, pricing, content strategy, network overlap, threat level
+- Sezione "Pattern Trasversali" con 5 pattern e implicazioni strategiche
+- Dati estratti da MARKET_INTEL.md — la narrativa dettagliata resta in MARKET_INTEL, il quick-reference è nello sheet
+
+**Struttura finale TRACKER.xlsx:** 5 sheets (Outreach, Jobs, Events, Cashflow, Competitors)
+
+---
+
+## 12 Feb 2026 — Ristrutturazione repo: da markdown a Excel
+
+**Migrazione completa della struttura dati:**
+- Creato `TRACKER.xlsx` con 4 sheets: Outreach (46 righe, tutti i contatti), Jobs (10 applications), Events (14 eventi passati+futuri), Cashflow (7 voci + riepilogo)
+- Migrati tutti i dati da: OUTREACH.md, JOBS.md, EVENTS.md, CASHFLOW.md
+- File deprecati spostati in `Archivio/` (non eliminati, per verifica post-migrazione)
+- File archiviati: TRACKER.md, PROJECT_INSTRUCTIONS.md, OUTREACH.md, JOBS.md, EVENTS.md, CASHFLOW.md, Job_Search_Keywords.md, vecchi Excel in assets/
+
+**Merge MARKET_INTEL.md:**
+- Integrati dati unici da Job_Search_Keywords.md (5 JD extra: HBX, Panda Drum, EcomTraffic, Women Doing Well, Ashby + RateHawk, KCM)
+- Frequenze keyword aggiornate da 10 a 15 JD analizzate
+- Aggiunta sezione "Hard Filters Settoriali"
+- Aggiunta sezione "Tools Pattern"
+- Salary benchmarks espansi con 4 nuovi data points
+
+**Aggiornamenti documentazione:**
+- CLAUDE.md aggiornato con nuova struttura (Excel + markdown)
+- README.md aggiornato
+- .gitignore aggiornato (TRACKER.xlsx ora tracked, vecchi xlsx in Archivio ignorati)
+
+**⚠️ Discrepanze note (da risolvere con Sabrina):**
+- Oliver Pou: EVENTS diceva 12 Feb, OUTREACH diceva 13 Feb — segnalato in giallo nel TRACKER.xlsx
+- Jordi Oller: EVENTS diceva 17 Feb 17:00, OUTREACH diceva 13 Feb 09:00 — segnalato in giallo nel TRACKER.xlsx
+
+**Struttura finale:**
+```
+TRACKER.xlsx (4 sheets) ← dati operativi
+CONTEXT.md              ← statico
+MARKET_INTEL.md         ← intelligence aggregata
+CHANGELOG.md            ← log
+CLAUDE.md               ← istruzioni
+README.md               ← overview
+competitive_analysis.html
+assets/CV
+Archivio/               ← file deprecati
+```
+
+---
+
 ## 11 Feb 2026 (update 4) — SheAI workshop follow-up + Carla Almaguer
 
 **Events (SheAI 10 Feb):**

@@ -33,7 +33,7 @@ Esempi concreti:
 
 | Parametro | Valore |
 |-----------|--------|
-| Revenue | €3-15M |
+| Revenue | €1-15M |
 | Headcount | 30-100 persone |
 | Fase | Post-seed / Series A, scaling |
 | Sintomo | "KPI verdi ma P&L che non scala" / "i team litigano" / "qualcosa non funziona ma non sappiamo cosa" |

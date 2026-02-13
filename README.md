@@ -5,16 +5,15 @@ Repo operativa per il lancio del servizio Fractional COO. Single source of truth
 ## Struttura
 
 ```
-├── CLAUDE.md        → Istruzioni per qualsiasi Claude che lavora sulla repo
-├── CONTEXT.md       → Statico: background, ICP, pricing
-├── OUTREACH.md      → Pipeline validazione + contatti
-├── JOBS.md          → Job applications
-├── EVENTS.md        → Eventi, prep, follow-up
-├── CASHFLOW.md      → Cash flow tracking
-├── MARKET_INTEL.md  → Pattern e linguaggio estratti da JD e ricerca
-├── CHANGELOG.md     → Log cronologico: cosa è successo, quando
-└── assets/
-    └── CV_Sabrina_Fadda.pdf
+├── CLAUDE.md              → Istruzioni per qualsiasi Claude che lavora sulla repo
+├── CONTEXT.md             → Statico: background, ICP, pricing
+├── TRACKER.xlsx           → Dati operativi (4 sheets: Outreach, Jobs, Events, Cashflow)
+├── MARKET_INTEL.md        → Pattern, linguaggio, competitive landscape (da JD e ricerca)
+├── CHANGELOG.md           → Log cronologico: cosa è successo, quando
+├── competitive_analysis.html → Analisi competitiva visuale
+├── assets/
+│   └── CV_Sabrina_Fadda.pdf
+└── Archivio/              → File deprecati dalla migrazione 12 Feb 2026
 ```
 
 ## Fase attuale
@@ -27,7 +26,7 @@ Go/No-Go: 3+ founder riconoscono il problema → procedi. Altrimenti → pivot.
 
 ## Come aggiornare
 
-Apri Claude → scrivi cosa è successo in formato libero → Claude aggiorna il file giusto + CHANGELOG.
+Apri Claude → scrivi cosa è successo in formato libero → Claude aggiorna TRACKER.xlsx (sheet giusta) + CHANGELOG.
 
 ## Repo correlate
 
