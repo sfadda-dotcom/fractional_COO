@@ -4,6 +4,36 @@ Log cronologico inverso. Entry più recente in cima. Mai editare entry passate.
 
 ---
 
+## 16 Feb 2026 — Angelica Pellizzari: uscita da Immobiliare.it
+
+- Annuncio LinkedIn di oggi: lascia ruoli operativi e CdA di Immobiliare.it
+- Implicazione: in transizione, più disponibile, timing ottimale per call
+- Strategia call aggiornata: approccio diretto (no one-pager), focus su referral e market scanning
+
+---
+
+## 16 Feb 2026 — Angelica Pellizzari added to pipeline
+
+- New contact: Angelica Pellizzari (ex-CFO ProntoPro, now CFO/Board at Immobiliare.it, Sesa, Treatwell, Euroansa, ex-Facile.it)
+- Source: ex-colleague, ha accettato call "con molto piacere"
+- Type: referral source / credibility validator, NOT ICP
+- Ha visto Sabrina durante crisi ProntoPro — first-hand knowledge of capabilities
+- **Outreach sheet:** Added as row 54 (ID 53). Status: 🟡 In attesa call. Heavy-hitter corporate IT, board-level network. Potenziale referral verso founder EU.
+
+---
+
+## 16 Feb 2026 — Oliver Pou conversazione completata
+
+**Outreach sheet:**
+- **#1 Oliver Pou** (Futurae / Health Tech Forward) → Status: Done. Data conversazione: 16 Feb 2026. Riconosce problema: Yes. Insight chiave: "le aziende pagano quando capiscono che non devono assumerti FTE, ma devono prima capire il valore". Contesto: quasi disoccupato, fa networking professionale in health. NON ICP (no azienda attiva). Commento ricorrente su bias donna/italiana a BCN (3a volta in 2 mesi). Next step: vago, ci risentiremo.
+
+**Validazione update:**
+- Conversazioni completate: 1/10-15
+- Founder riconosce problema: 1/3 (target soglia per go/no-go)
+- Insight: problema riconosciuto anche da chi è fuori mercato → validazione cross-segmento positiva ma non conclusiva. Necessario raccogliere 2+ feedback da founder con azienda attiva.
+
+---
+
 ## 13 Feb 2026 (update 2) — Alexandra Demoures, Giulia Martini, Tacones y Bambas
 
 **Outreach sheet:**
