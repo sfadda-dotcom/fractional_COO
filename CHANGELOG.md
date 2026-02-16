@@ -4,6 +4,28 @@ Log cronologico inverso. Entry più recente in cima. Mai editare entry passate.
 
 ---
 
+## 13 Feb 2026 (update 2) — Alexandra Demoures, Giulia Martini, Tacones y Bambas
+
+**Outreach sheet:**
+- **#51 Alexandra (Costantini) Demoures** (C-Suites LAB) → Network strategico, ALTA priorità. Piattaforma matchmaking per fractional CxO. Form Notion da compilare per membership. Incontrata a Fayron.
+- **#52 Giulia Martini** (Genial Business) → Referral potenziale, call esplorativa oggi. Founder, 300+ clienti PMI, formazione 3gg. Verificare se target PMI è nel range ICP.
+- **#47 Federico Martinucci** → nota aggiornata: Giulia è il contatto reale, Federico era intro.
+
+**Events sheet:**
+- Aggiunto evento Tacones y Bambas (13 Feb 2026)
+
+---
+
+## 13 Feb 2026 — TRACKER: 4 nuovi contatti aggiunti (#47-50)
+
+**Outreach sheet — righe 47-50:**
+- **#47 Federico Martinucci** (Genial Business) → Network generico, bassa priorità. Formatore gestione personale PMI, sinergia debole.
+- **#48 Silvia Morales** (söt dröm) → Da qualificare, media priorità. Fashion brand BCN, vuole scalare. Verificare dimensione reale.
+- **#49 Sonia Domenech Anglada** → Peer adiacente, ALTA priorità. Consulente cultura org, ex-FC Barcelona. Referral reciproco potenziale alto. Coffee da fissare.
+- **#50 Michele D'Antino** (Domina tu Discurso) → Network generico, bassa priorità. Formatore oratoria.
+
+---
+
 ## 12 Feb 2026 (update 4) — MARKET_INTEL: Coliseum Keywords aggiornate da 15 a 18 JD
 
 **MARKET_INTEL.md:**
