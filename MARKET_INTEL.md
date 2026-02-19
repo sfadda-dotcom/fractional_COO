@@ -22,32 +22,37 @@ Parole e frasi esatte usate nelle JD e nelle conversazioni per descrivere il pro
 
 | Termine / Frase | Frequenza | Fonte |
 |-----------------|-----------|-------|
-| KPIs / OKRs / Dashboards | 15/18 | JD: Tu TrabajoCR, saas.group, AdTech, Vial, HBX, Panda Drum, EcomTraffic, Women Doing Well, Nuitée, Joko, Ashby, KCM, Knotty Ones, Speedy.io, Preply |
-| cross-functional alignment | 13/18 | JD: Zartis, Prosolbia, Joko, Nuitée, Vial, saas.group, AdTech, Ashby, HBX, Women Doing Well, Knotty Ones, Speedy.io, Preply |
-| scalable systems / infrastructure | 11/18 | JD: Prosolbia, AdTech, Keystone, Panda Drum, EcomTraffic, Women Doing Well, HBX, KCM, Joko, saas.group, Speedy.io |
-| process improvement / SOPs | 10/18 | JD: Joko, Tu TrabajoCR, Zartis, Keystone, Panda Drum, EcomTraffic, Women Doing Well, HBX, Ashby, Knotty Ones |
-| team leadership (lean teams) | 10/18 | JD: Panda Drum, EcomTraffic, AdTech, Women Doing Well, Tu TrabajoCR, Joko, Arnold Ash, KCM, Knotty Ones, Speedy.io |
-| CEO/Executive partnership | 10/18 | JD: saas.group, Vial, AdTech, HBX, Women Doing Well, Prosolbia, Keystone, Knotty Ones, Speedy.io, Preply |
-| financial acumen (budgeting, forecasting, margins) | 9/18 | JD: Nuitée, Panda Drum, KCM, Women Doing Well, saas.group, AdTech, Arnold Ash, Prosolbia, Speedy.io |
-| remote/async | 6/18 | JD: saas.group, Vial, Keystone, Tu TrabajoCR, Arnold Ash, AdTech |
-| data-driven | 6/18 | JD: saas.group, Vial, Joko, Knotty Ones, Speedy.io, Preply |
-| post-merger / transformation | 5/18 | JD: saas.group, HBX, KCM, Prosolbia, Ashby |
-| turn strategy into execution | 4/18 | JD: Preply, saas.group, Speedy.io, HBX |
-| P&L ownership | 3/18 | JD: Arnold Ash, AdTech, Prosolbia |
-| lead-to-cash | 1/18 | JD: Nuitée |
-| systems thinking | 1/18 | JD: Zartis |
-| visibilidad márgenes | 1/18 | JD: Prosolbia |
-| integrator mindset (EOS) | 1/18 | JD: Women Doing Well |
-| influence without direct authority | 1/18 | JD: Preply — **descrive esattamente il fractional COO** |
-| single source of truth (per performance) | 1/18 | JD: Preply |
-| execution bottlenecks / misalignments | 1/18 | JD: Preply — i sintomi del problema che risolvi |
+| KPIs / OKRs / Dashboards | 16/19 | JD: Tu TrabajoCR, saas.group, AdTech, Vial, HBX, Panda Drum, EcomTraffic, Women Doing Well, Nuitée, Joko, Ashby, KCM, Knotty Ones, Speedy.io, Preply, Grey Matter AdTech |
+| cross-functional alignment | 14/19 | JD: Zartis, Prosolbia, Joko, Nuitée, Vial, saas.group, AdTech, Ashby, HBX, Women Doing Well, Knotty Ones, Speedy.io, Preply, Grey Matter AdTech |
+| scalable systems / infrastructure | 12/19 | JD: Prosolbia, AdTech, Keystone, Panda Drum, EcomTraffic, Women Doing Well, HBX, KCM, Joko, saas.group, Speedy.io, Grey Matter AdTech |
+| CEO/Executive partnership | 11/19 | JD: saas.group, Vial, AdTech, HBX, Women Doing Well, Prosolbia, Keystone, Knotty Ones, Speedy.io, Preply, Grey Matter AdTech |
+| process improvement / SOPs | 10/19 | JD: Joko, Tu TrabajoCR, Zartis, Keystone, Panda Drum, EcomTraffic, Women Doing Well, HBX, Ashby, Knotty Ones |
+| team leadership (lean teams) | 10/19 | JD: Panda Drum, EcomTraffic, AdTech, Women Doing Well, Tu TrabajoCR, Joko, Arnold Ash, KCM, Knotty Ones, Speedy.io |
+| financial acumen (budgeting, forecasting, margins) | 9/19 | JD: Nuitée, Panda Drum, KCM, Women Doing Well, saas.group, AdTech, Arnold Ash, Prosolbia, Speedy.io |
+| data-driven | 7/19 | JD: saas.group, Vial, Joko, Knotty Ones, Speedy.io, Preply, Grey Matter AdTech |
+| remote/async | 6/19 | JD: saas.group, Vial, Keystone, Tu TrabajoCR, Arnold Ash, AdTech |
+| turn strategy into execution | 5/19 | JD: Preply, saas.group, Speedy.io, HBX, Grey Matter AdTech |
+| post-merger / transformation | 5/19 | JD: saas.group, HBX, KCM, Prosolbia, Ashby |
+| P&L ownership | 3/19 | JD: Arnold Ash, AdTech, Prosolbia |
+| reduce founder dependency | 2/19 | JD: Grey Matter AdTech, Keystone — **segnale forte: il COO serve a liberare il founder** |
+| delivery velocity / execution frameworks | 1/19 | JD: Grey Matter AdTech — **"own delivery velocity", "execution frameworks"** |
+| decision rights / delivery governance | 1/19 | JD: Grey Matter AdTech — **"clear ownership, decision rights, delivery governance"** |
+| product-led thinking | 1/19 | JD: Grey Matter AdTech — **"product-led thinking" come requisito COO** |
+| lead-to-cash | 1/19 | JD: Nuitée |
+| systems thinking | 1/19 | JD: Zartis |
+| visibilidad márgenes | 1/19 | JD: Prosolbia |
+| integrator mindset (EOS) | 1/19 | JD: Women Doing Well |
+| influence without direct authority | 1/19 | JD: Preply — **descrive esattamente il fractional COO** |
+| single source of truth (per performance) | 1/19 | JD: Preply |
+| execution bottlenecks / misalignments | 1/19 | JD: Preply — i sintomi del problema che risolvi |
 
 ### Osservazioni
 
-- **"KPIs / OKRs / Dashboards"** è il termine dominante — 15 su 18 JD (83%). Il mercato pensa in metriche.
-- **"Cross-functional"** al secondo posto (13/18, 72%). Conferma che è il Coliseum Keyword #1 per il positioning.
-- **"Scalable systems"** (11/18) e **"Process improvement/SOPs"** (10/18) quasi pari — il mercato vuole struttura, non consulenza astratta.
-- **"Turn strategy into execution"** (4/18) — pattern emergente. Preply, saas.group, Speedy.io, HBX. Questo è IL pain point: founder ha strategia, ma non succede niente.
+- **"KPIs / OKRs / Dashboards"** è il termine dominante — 16 su 19 JD (84%). Il mercato pensa in metriche.
+- **"Cross-functional"** al secondo posto (14/19, 74%). Conferma che è il Coliseum Keyword #1 per il positioning.
+- **"Scalable systems"** (12/19) e **"Process improvement/SOPs"** (10/19) — il mercato vuole struttura, non consulenza astratta.
+- **"Turn strategy into execution"** (5/19) — pattern in crescita. Preply, saas.group, Speedy.io, HBX, Grey Matter AdTech. Questo è IL pain point: founder ha strategia, ma non succede niente. Grey Matter lo dice esplicitamente: "turn strategy into consistently shipped outcomes".
+- **"Reduce founder dependency"** (2/19) — nuovo pattern. Grey Matter AdTech + Keystone. Il COO serve a liberare il founder dalla gestione operativa. Linguaggio potente per le conversazioni di validazione.
 - **"Influence without direct authority"** (Preply) è la descrizione perfetta del fractional COO. Da usare nelle conversazioni di validazione: "il mio ruolo è far muovere i team senza avere autorità diretta su di loro."
 - **"Execution bottlenecks / misalignments"** (Preply) — i sintomi esatti del problema che risolvi. Non è solo "i dipartimenti non comunicano". È "ogni iniziativa strategica si blocca perché nessuno coordina cross-functional."
 - **Nessuna JD dice "operational diagnostic"** — è il tuo termine, non il loro. Potenziale disallineamento nel positioning.
@@ -68,6 +73,7 @@ Pattern di problemi che le aziende stanno cercando di risolvere attraverso quest
 | Processi manuali / inefficienti | Media | Joko: "automation, CRM, process optimization"; Zartis: "process architecture" |
 | Mancanza di visibilità sui numeri | Media | Prosolbia: "visibilidad márgenes"; Vial: "dashboards"; Nuitée: "forecasting" |
 | Scaling senza struttura | Media | Keystone: "startup 20-150 people, data systems"; AdTech: "230+ emp, multi-BU" |
+| Founder dependency / founder bottleneck | Media | Grey Matter AdTech: "reduce founder dependency, clear ownership, decision rights"; Keystone |
 | Post-acquisition chaos | Bassa (ma alto valore) | saas.group: "post-merger integration" |
 
 ---
@@ -101,6 +107,7 @@ Il mercato chiede CRM + dashboarding + automation come combo standard. La tua co
 | $84-95K (~€77-87K) | Sr Director Ops | Women Doing Well |
 | $150-200K | Strategy & Ops, reports to COO | Vial |
 | €200-250K | Director Ops (con hard filter settoriale) | KCM Data Centers |
+| "Highly competitive" + bonus + equity | COO (VC-backed, 200% YoY growth) | Grey Matter AdTech (BCN, stimato €120-180K+) |
 | Non specificato (C-level) | COO | AdTech/Gaming, Arnold Ash |
 
 ### Implicazione per pricing Fractional COO
@@ -235,6 +242,30 @@ Profili di practitioner che fanno (o dicono di fare) quello che vuoi fare tu. No
 - **Opportunità come peer**: stesso mestiere, stesse sfide, possibili referral reciproci. Coffee proposto.
 - **Nota**: il mercato BCN per fractional COO sta diventando affollato. 4 practitioner noti nello stesso km².
 
+### Scalable.co — Ryan Deiss (US) — NON competitor, reference
+
+| Campo | Dettaglio |
+|-------|----------|
+| Company | The Scalable Company (scalable.co) |
+| Founder | Ryan Deiss (DigitalMarketer, inc. 500 x3) |
+| Location | US |
+| Model | **Info-product / coaching (one-to-many)** — libro, corso, mastermind, template |
+| Target | Imprenditori 7-8 figure (US, SMB tradizionali), non tech/startup |
+| Products | Get Scalable Book, Get Scalable Implementation Program™, Founders Board (mastermind), Scalable Operating System™ |
+| Framework | "Scalable Operating System™" — Clarity Compass, Scorecard, Meeting Rhythm, Playbook Vault, Value Engine, Hot Canvas |
+| Pricing | Libro ~$20, Implementation Program (non pubblico, stimato $5-15K), Founders Board (application-only, stimato $25-50K+/anno) |
+| Positioning | "Tired of being the biggest bottleneck in your business?" |
+
+**Perché non è competitor:**
+- Vende un sistema pre-confezionato (compra il libro, fai il corso, usa i template). Tu vendi il tuo cervello e le tue mani dentro l'azienda.
+- Target completamente diverso: SMB americani, non tech/marketplace europei.
+- Non fa lavoro 1:1 operativo — non legge il P&L, non redesigna l'org chart, non fa le conversazioni difficili.
+
+**Perché è utile:**
+- **Linguaggio**: usa le stesse parole del tuo ICP ("biggest bottleneck", "scale without sacrificing everything", "operating system"). Conferma che il vocabolario funziona.
+- **Obiezione da preparare**: un founder potrebbe dire "perché pago te €5k/mese quando posso comprare il libro a €20?" Risposta: un libro non entra nella tua azienda, non legge i tuoi numeri, non fa i licenziamenti che il tuo team evita da 6 mesi.
+- **Content strategy**: forte uso di case study con numeri reali ($200M holding company, 6 business scalati simultaneamente). Il formato case study + framework proprietario è replicabile.
+
 ### Pattern Trasversali dai Competitor
 
 | Pattern | Evidenza | Implicazione per te |
@@ -246,6 +277,22 @@ Profili di practitioner che fanno (o dicono di fare) quello che vuoi fare tu. No
 | Content + community come acquisition | Cadwell: RevOps events at Itnig, 2.7K LinkedIn followers. Barretta: articoli educativi | Dopo validazione, content è il canale naturale. Ma NON ora — prima valida, poi costruisci. |
 | Track record quantificato come leva | Cadwell: "ARR 15×", "4 exits". Barretta: "130→200+ agents", "$138M deal" | Tu hai: "team 1→17", "P&L ownership", "20+ hire/fire". Numeri comparabili. Usali. |
 | Barcelona è un mercato affollato | Cadwell + OLYRA + Almaguer + te = **4 fractional COO** nello stesso km² | Il network si sovrappone (Sanitha Alam, SheAI, ESADE). Positioning chiaro e diverso è non-opzionale. Carla è impact-verticale, Caroline è CRO-leaning, Brian è generalist. Il tuo spazio: P&L diagnostic cross-functional. |
+
+---
+
+## Bias Strutturale — Barcellona
+
+**Pattern confermato:** 3 episodi in 2 mesi (gen-feb 2026) di bias donna/italiana nel mercato B2B barcellonese.
+
+**Fonte:** Feedback diretto da interlocutori durante conversazioni di validazione e networking.
+
+**Implicazioni strategiche:**
+- Cold outreach a Barcellona ha tasso di conversione strutturalmente inferiore per profilo donna/italiana
+- Il bias agisce PRE-contenuto (prima che il messaggio venga letto/valutato)
+- Warm network neutralizza il bias (track record già noto)
+- Mercato remote EU potenzialmente meno esposto (primo touchpoint digitale)
+
+**Azione:** Ribilanciare channel mix — prioritizzare warm intros e referral su cold outreach locale. Testare remote EU come canale parallelo.
 
 ---
 

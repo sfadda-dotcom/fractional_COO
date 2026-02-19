@@ -71,4 +71,3 @@ n8n, API integration, Python, Claude AI, SQL — sufficienti per prototipare, no
 - Runway: 2 mesi (da Feb 2026)
 - Priorità: Fractional COO (main) vs job search (parachute)
 - Team: solo intern part-time
-- No Italia come mercato target

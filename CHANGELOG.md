@@ -4,6 +4,22 @@ Log cronologico inverso. Entry più recente in cima. Mai editare entry passate.
 
 ---
 
+## 18 Feb 2026 — JD: Grey Matter Recruitment — COO Mobile AdTech (BCN)
+
+- Aggiunto a Jobs sheet: match 75%. Gap: no AdTech experience, product-led thinking.
+- MARKET_INTEL aggiornato: conteggio JD da 18→19. Nuovi termini: "delivery velocity", "reduce founder dependency", "decision rights", "product-led thinking". "Turn strategy into execution" sale a 5/19. Nuovo pain point: founder dependency.
+- Salary benchmark: "highly competitive + bonus + equity" (stimato €120-180K+) per COO VC-backed BCN.
+
+---
+
+## 16 Feb 2026 — MARKET_INTEL: bias strutturale Barcellona
+
+- Nuovo pattern documentato: 3 episodi bias donna/italiana in 2 mesi
+- Implicazione: cold outreach BCN ha ROI strutturalmente inferiore
+- Azione: shift verso warm network e remote EU
+
+---
+
 ## 16 Feb 2026 — Angelica Pellizzari: uscita da Immobiliare.it
 
 - Annuncio LinkedIn di oggi: lascia ruoli operativi e CdA di Immobiliare.it
