@@ -4,6 +4,14 @@ Log cronologico inverso. Entry più recente in cima. Mai editare entry passate.
 
 ---
 
+## 23 Feb 2026 — change strategy
+
+- Voglio definire il mio lavoro e non rientrare in una categoria specifica
+
+---
+
+---
+
 ## 18 Feb 2026 — JD: Grey Matter Recruitment — COO Mobile AdTech (BCN)
 
 - Aggiunto a Jobs sheet: match 75%. Gap: no AdTech experience, product-led thinking.

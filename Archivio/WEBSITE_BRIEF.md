@@ -255,23 +255,22 @@ Results I've driven:
 -60% operational overtime
 ```
 ```
-Automated account receivables and restructured workflows (ProntoPro)
-```
+Automated account receivables and restructured workflows ```
 
 **Card 2:**
 ```
 -25% operating costs
 ```
 ```
-Identified bottlenecks, automated processes, restructured team (ProntoPro)
+Identified bottlenecks, automated processes, restructured team
 ```
 
 **Card 3:**
 ```
-1 → 17 team built from zero
+1 → +20 team built from zero
 ```
 ```
-Customer support team scaled with performance reporting (ProntoPro)
+Customer support team scaled with performance reporting 
 ```
 
 **Card 4:**
@@ -279,7 +278,7 @@ Customer support team scaled with performance reporting (ProntoPro)
 -15% accounting overhead
 ```
 ```
-Finance automation and process redesign during M&A integration (ShopFully)
+Finance automation and process redesign during M&A integration
 ```
 
 ---
@@ -291,30 +290,12 @@ Finance automation and process redesign during M&A integration (ShopFully)
 I'm a founder and operator, not just a consultant.
 ```
 
-**4 card (griglia 2x2):**
+**1 card:**
 
 ```
 Building Nuvis Planner
 SaaS platform for wedding planning — built from zero:
 backend, database, AI agents, product roadmap.
-```
-
-```
-M&A Integration Lead
-Led finance integration during ShopFully's
-acquisition of Tiendeo (Spain).
-```
-
-```
-Full P&L Ownership
-Internalized all finance at ProntoPro.
-Built investor reporting from scratch.
-```
-
-```
-Big Four Foundation
-Deloitte + EY. Process optimization,
-financial analysis, cross-border operations.
 ```
 
 ---
@@ -363,14 +344,14 @@ governance. Your Head of Ops executes the plan. I design the machine.
 
 ```
 Q: How much does this cost?
-A: It depends on scope. Consultant COO is a fixed project.
+A: It depends on scope. A diagnostic is a fixed project.
 Fractional COO is a monthly retainer. Advisory is lighter.
 Book a call and I'll tell you honestly if it makes sense for your stage.
 ```
 
 ```
 Q: What deliverables do I get?
-A: In a Consultant COO engagement: a full audit with a prioritized action plan.
+A: In a diagnostic: a full audit with a prioritized action plan.
 In a retainer: redesigned structure, governance frameworks, process maps,
 KPI dashboards, and hands-on implementation support. Not slide decks —
 actual change.
@@ -378,7 +359,7 @@ actual change.
 
 ```
 Q: How much time do I need to commit?
-A: For a Consultant COO project, 3-4 hours of your time over 2 weeks.
+A: For a diagnostic, 3-4 hours of your time over 2 weeks.
 For a retainer, a weekly sync + access to your team. I do the heavy
 lifting. You make the final calls.
 ```
@@ -397,7 +378,7 @@ and investor data. Confidentiality is non-negotiable.
 
 ```
 Q: What if I'm not ready yet?
-A: That's fine. The Consultant COO format exists exactly for this — it tells you
+A: That's fine. The diagnostic exists exactly for this — it tells you
 where you are and what to fix first. Sometimes the answer is
 "not yet, but here's what to do in 3 months."
 ```
@@ -475,7 +456,7 @@ No fluff. Just the stuff that actually helps you fix things.
 > Nota: queste risorse vanno create. Per ora metti placeholder o le prime 2:
 
 ```
-Card 1: Ops Health Checklist
+Card 1: Ops Diagnostic Checklist
 A 30-question self-assessment to find where your company
 is leaking value. Takes 15 minutes. Brutally honest.
 [Download Free]
